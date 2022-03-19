@@ -1,0 +1,198 @@
+.Team{
+    background-color: #0b1e38;
+    
+}
+main[page=about] section[type=grid] {
+    padding-top: 100px;
+    margin-bottom: -20px;
+}
+main[page=about] section[type=grid] .grid-header {
+    margin-bottom: 0;
+}
+@media (min-width: 61.25em)
+{section[type=grid] .grid-header {
+    margin-bottom: 70px;
+}}
+
+section[type=grid] .grid-header {
+    margin-bottom: 40px;
+}
+[in-view=fade-up] {
+    transition: opacity 1s cubic-bezier(.5,0,.2,1),-webkit-transform 1s cubic-bezier(0,.7,.1,1);
+    transition: transform 1s cubic-bezier(0,.7,.1,1),opacity 1s cubic-bezier(.5,0,.2,1);
+    transition: transform 1s cubic-bezier(0,.7,.1,1),opacity 1s cubic-bezier(.5,0,.2,1),-webkit-transform 1s cubic-bezier(0,.7,.1,1);
+    will-change: transform,opacity;
+}
+@media (max-width: 68.74em)
+{main[page=about] section[type=grid] .center {
+    padding-left: 0;
+    padding-right: 0;
+}}
+
+main[page=about] section[type=grid] .center {
+    padding-left: 94px;
+    padding-right: 94px;
+}
+
+section[type] .center {
+    position: relative;
+    z-index: 50;
+}
+.center {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+section[type=grid] .grid-list {
+    position: relative;
+    margin-right: -17px;
+    margin-left: -17px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    z-index: 3;
+    padding-bottom: 140px;
+}
+@media (min-width: 46.25em)
+{section[type=grid] .grid-item {
+    width: 50%;
+    padding-left: 17px;
+    padding-right: 17px;
+}}
+
+main[page=about] section[type=grid] .grid-item {
+    margin-bottom: 60px;
+    padding-bottom: 0;
+    width: 25%;
+    -webkit-transform: none;
+    transform: none;
+}
+@media (min-width: 61.25em)
+{section[type=grid] .grid-item {
+    width: 33.3333333333%;
+}}
+
+main[page=about] section[type=grid] .grid-item {
+    margin-bottom: 60px;
+    padding-bottom: 0;
+    width: 25%;
+    -webkit-transform: none;
+    transform: none;
+}
+@media (min-width: 61.25em)
+{section[type=grid] .grid-item:nth-child(3n+2) {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}}
+.section-title {
+    font-family: 'California',Times,Georgia,serif;
+    font-weight: 500;
+    font-size: 3.75rem;
+    line-height: 1;
+    /* color: #fff; */
+    margin-bottom: 60px;
+}
+section[type=grid] .grid-list {
+    position: relative;
+    margin-right: -17px;
+    margin-left: -17px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    z-index: 3;
+    padding-bottom: 140px;
+}
+
+[in-view=fade-up] {
+    transition: opacity 1s cubic-bezier(.5,0,.2,1),-webkit-transform 1s cubic-bezier(0,.7,.1,1);
+    transition: transform 1s cubic-bezier(0,.7,.1,1),opacity 1s cubic-bezier(.5,0,.2,1);
+    transition: transform 1s cubic-bezier(0,.7,.1,1),opacity 1s cubic-bezier(.5,0,.2,1),-webkit-transform 1s cubic-bezier(0,.7,.1,1);
+    will-change: transform,opacity;
+}
+section[type=grid] .grid-picture {
+    position: relative;
+    width: 100%;
+}
+.wave-container {
+    position: relative;
+    display: inline-block;
+}
+section[type=grid] .grid-picture img {
+    display: block;
+    width: 100%;
+}
+main[page=about] section[type=grid] .grid-title {
+    margin-top: -50px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 2.1875rem;
+}
+.section-subhead, .section-subtitle {
+    font-weight: 500;
+    color: #00b69d;
+    font-size: .625rem;
+    line-height: 2.6;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+}
+.backgroundcliptext .section-subhead>span, .backgroundcliptext .section-subtitle>span {
+    display: inline-block;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-subhead+.section-title {
+    margin-top: 15px;
+}
+@media (max-width: 61.24em)
+{.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}}
+section[type=grid] .grid-title {
+    font-family:'California',Times,Georgia,serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    text-align: left;
+    text-shadow: 0 0 42px #2f9d9c;
+    color: #fff;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: skewY(-11.5deg);
+    transform: skewY(-11.5deg);
+    z-index: 5;
+}
+main[page=about] section[type=grid] .grid-subtitle {
+    padding-right: 0;
+    padding-left: 46px;
+    margin-top: 20px;
+    text-align: left;
+}
+section[type=grid] .grid-subtitle {
+    font-weight: 700;
+    font-size: .5625rem;
+    line-height: 2.4;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: rgba(185,215,255,.5);
+    padding-left: 100px;
+    padding-right: 30px;
+    min-height: 43.2px;
+}
+@media (max-width: 61.24em)
+{section[type=grid] .grid-subtitle {
+    font-size: .625rem;
+    padding-left: 0;
+    padding-right: 0;
+}}
