@@ -1,1 +1,1 @@
-# JSCOP
+# JSCOP by NG
