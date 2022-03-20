@@ -7,7 +7,7 @@ function Sponsors() {
         <div className="center">
           <div className="page-title">
             <span className="suptitle in-view" in-view="fade-right">
-              PrOud Kikk
+              PrOud Optica
             </span>
             <h2 in-view="fade-right" className="in-view">
               Sponsors
@@ -33,7 +33,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Digital Wallonia</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/LOGO_ccOK.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/LOGO_ccOK.png"
                   alt="Digital Wallonia"
                 />
               </a>
@@ -46,7 +46,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Belfius</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/Belfius_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/Belfius_logo.png"
                   alt="Belfius"
                 />
               </a>
@@ -69,7 +69,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Dogstudio</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/Dogstudio-(color)_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/Dogstudio-(color)_logo.png"
                   alt="Dogstudio"
                 />
               </a>
@@ -82,7 +82,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Superbe</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/superbe.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/superbe.jpg"
                   alt="Superbe"
                 />
               </a>
@@ -102,7 +102,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Europe Wallonia</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/1_FEDER-Wallonie_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/1_FEDER-Wallonie_logo.jpg"
                   alt="Europe Wallonia"
                 />
               </a>
@@ -130,7 +130,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Wallonie</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/4_Wallonie_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/4_Wallonie_logo.jpg"
                   alt="Wallonie"
                 />
               </a>
@@ -145,7 +145,7 @@ function Sponsors() {
                   Wallifornia Music Tech
                 </span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Autres/WMT-FULL-10-NB.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Autres/WMT-FULL-10-NB.jpg"
                   alt="Wallifornia Music Tech"
                 />
               </a>
@@ -158,7 +158,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Trakk</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/2_Trakk-(noir)_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/2_Trakk-(noir)_logo.jpg"
                   alt="Trakk"
                 />
               </a>
@@ -171,7 +171,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">ADN</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/3_ADN_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/3_ADN_logo.png"
                   alt="ADN"
                 />
               </a>
@@ -184,7 +184,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">WBI</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/5_WBI_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/5_WBI_logo.png"
                   alt="WBI"
                 />
               </a>
@@ -199,7 +199,7 @@ function Sponsors() {
                   Saisons des cultures numériques
                 </span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/7_Saisons-numeriques_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/7_Saisons-numeriques_logo.jpg"
                   alt="Saisons des cultures numériques"
                 />
               </a>
@@ -212,7 +212,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Théâtre de Namur</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/8_The-a-tre-de-Namur_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/8_The-a-tre-de-Namur_logo.png"
                   alt="Théâtre de Namur"
                 />
               </a>
@@ -225,7 +225,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Ville de Namur </span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/9_Ville-de-Namur-(bleu)_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/9_Ville-de-Namur-(bleu)_logo.jpg"
                   alt="Ville de Namur "
                 />
               </a>
@@ -238,7 +238,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Cepegra</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/Cepegra-(square)_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/Cepegra-(square)_logo.jpg"
                   alt="Cepegra"
                 />
               </a>
@@ -251,7 +251,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Confluent culture</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/10_Confluent-culture_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/10_Confluent-culture_logo.jpg"
                   alt="Confluent culture"
                 />
               </a>
@@ -264,7 +264,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Namur capitale</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/11_Namur-capitale_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/11_Namur-capitale_logo.jpg"
                   alt="Namur capitale"
                 />
               </a>
@@ -277,7 +277,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Visit Namur</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/12_Visit-Namur_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/12_Visit-Namur_logo.jpg"
                   alt="Visit Namur"
                 />
               </a>
@@ -290,7 +290,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Province de Namur</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/13_Province-de-Namur_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/13_Province-de-Namur_logo.jpg"
                   alt="Province de Namur"
                 />
               </a>
@@ -303,7 +303,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">SGL</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/15_SGL_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/15_SGL_logo.jpg"
                   alt="SGL"
                 />
               </a>
@@ -316,7 +316,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Vedett</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/16_Vedett-Blond_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/16_Vedett-Blond_logo.jpg"
                   alt="Vedett"
                 />
               </a>
@@ -329,7 +329,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">BEP</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/17_BEP_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/17_BEP_logo.png"
                   alt="BEP"
                 />
               </a>
@@ -342,7 +342,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">SPW</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/19_SPW_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/03_Partners/19_SPW_logo.jpg"
                   alt="SPW"
                 />
               </a>
@@ -355,7 +355,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Trôbon!</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/LOGO_TROBON.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/LOGO_TROBON.jpg"
                   alt="Trôbon!"
                 />
               </a>
@@ -368,7 +368,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Freecaster</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/14633635_10154876466367262_8281735043266449370_o-Inverse.png"
+                  src="https://www.JSCOP.be/2022/files/library/14633635_10154876466367262_8281735043266449370_o-Inverse.png"
                   alt="Freecaster"
                 />
               </a>
@@ -381,7 +381,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">FTRSND</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Future-sound-01-01.png"
+                  src="https://www.JSCOP.be/2022/files/library/Future-sound-01-01.png"
                   alt="FTRSND"
                 />
               </a>
@@ -394,7 +394,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Forty Eight</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/LOGO-48.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/LOGO-48.jpg"
                   alt="Forty Eight"
                 />
               </a>
@@ -407,7 +407,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Volvo Sonama</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Volvo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Volvo.png"
                   alt="Volvo Sonama"
                 />
               </a>
@@ -420,7 +420,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Kickstarter</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Kicksarter.png"
+                  src="https://www.JSCOP.be/2022/files/library/Kicksarter.png"
                   alt="Kickstarter"
                 />
               </a>
@@ -433,7 +433,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Stanley &amp; Stella</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Logo_STST_2K17-OK.png"
+                  src="https://www.JSCOP.be/2022/files/library/Logo_STST_2K17-OK.png"
                   alt="Stanley &amp; Stella"
                 />
               </a>
@@ -446,7 +446,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Jet Import</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/1280px-Red_Bull.svg.png"
+                  src="https://www.JSCOP.be/2022/files/library/1280px-Red_Bull.svg.png"
                   alt="Jet Import"
                 />
               </a>
@@ -459,7 +459,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Jet Import</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Bionade_Logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Bionade_Logo.png"
                   alt="Jet Import"
                 />
               </a>
@@ -479,7 +479,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">L'Avenir</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/3_Lavenir-Net_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/3_Lavenir-Net_logo.jpg"
                   alt="L'Avenir"
                 />
               </a>
@@ -492,7 +492,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Moustique</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/6_Moustique_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/6_Moustique_logo.jpg"
                   alt="Moustique"
                 />
               </a>
@@ -505,7 +505,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Pure FM</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/2_PureFM_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/2_PureFM_logo.png"
                   alt="Pure FM"
                 />
               </a>
@@ -518,7 +518,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">La Première</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/5_La-Premiere.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/5_La-Premiere.png"
                   alt="La Première"
                 />
               </a>
@@ -531,7 +531,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Canal C</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/Canal-C_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/Canal-C_logo.png"
                   alt="Canal C"
                 />
               </a>
@@ -544,7 +544,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Silex ID</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/Silex.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/Silex.jpg"
                   alt="Silex ID"
                 />
               </a>
@@ -560,7 +560,7 @@ function Sponsors() {
                   ArtJaws Art &amp; Nouveaux Médias
                 </span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/ArtJaws-700.png"
+                  src="https://www.JSCOP.be/2022/files/library/ArtJaws-700.png"
                   alt="ArtJaws Art &amp; Nouveaux Médias"
                 />
               </a>
@@ -573,7 +573,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Fomo</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Logo-FOMO.png"
+                  src="https://www.JSCOP.be/2022/files/library/Logo-FOMO.png"
                   alt="Fomo"
                 />
               </a>
@@ -585,7 +585,7 @@ function Sponsors() {
 
             <div className="sponsors-list">
               <a
-                href="http://2017.fiberfestival.nl/"
+                href="http://2022.fiberfestival.nl/"
                 type="button"
                 layout="sponsor"
                 target="_blank"
@@ -593,7 +593,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Fiber</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/1_Fiber-festival_logo(1).jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/1_Fiber-festival_logo(1).jpg"
                   alt="Fiber"
                 />
               </a>
@@ -606,7 +606,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Retune</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/2_Retune_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/2_Retune_logo.png"
                   alt="Retune"
                 />
               </a>
@@ -619,7 +619,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Node </span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/3_NODE-SW_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/3_NODE-SW_logo.jpg"
                   alt="Node "
                 />
               </a>
@@ -632,7 +632,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Perte de signal</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/4_Perte-de-signal_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/4_Perte-de-signal_logo.png"
                   alt="Perte de signal"
                 />
               </a>
@@ -645,7 +645,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Elektronik</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/5_ELECTRONI_K_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/5_ELECTRONI_K_logo.jpg"
                   alt="Elektronik"
                 />
               </a>
@@ -658,7 +658,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Gaité Lyrique</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/6_Gaite-lyrique_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/6_Gaite-lyrique_logo.jpg"
                   alt="Gaité Lyrique"
                 />
               </a>
@@ -671,12 +671,12 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Cinekid</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/7_Cinekid_logo.png"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/7_Cinekid_logo.png"
                   alt="Cinekid"
                 />
               </a>
               <a
-                href="http://resonate.io/2017/"
+                href="http://resonate.io/2022/"
                 type="button"
                 layout="sponsor"
                 target="_blank"
@@ -684,7 +684,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Resonate</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/03_Partners/Wallifornia-MusicTech/8_Resonate-Festival_logo(1).jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/03_Partners/Wallifornia-MusicTech/8_Resonate-Festival_logo(1).jpg"
                   alt="Resonate"
                 />
               </a>
@@ -697,7 +697,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Beautés Soniques</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/9_Beautes-Soniques_logo.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/02_Founding-partners/04_Media-partners/03_Partners/05_Friends/9_Beautes-Soniques_logo.jpg"
                   alt="Beautés Soniques"
                 />
               </a>
@@ -710,7 +710,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Woelabo</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/Sponsors/logo-woelab-definitif-noir.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/Sponsors/logo-woelab-definitif-noir.jpg"
                   alt="Woelabo"
                 />
               </a>
@@ -723,7 +723,7 @@ function Sponsors() {
               >
                 <span className="u-visually-hidden">Elektra</span>
                 <img
-                  src="https://www.kikk.be/2017/files/library/LOGO_ELEKTRA_02_2013_NOIR.jpg"
+                  src="https://www.JSCOP.be/2022/files/library/LOGO_ELEKTRA_02_2013_NOIR.jpg"
                   alt="Elektra"
                 />
               </a>

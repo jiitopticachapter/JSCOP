@@ -28,3 +28,25 @@ a:active{
   position: absolute;
   width: 1px;
 }
+section[type] .center {
+  position: relative;
+  z-index: 50;
+}
+.center {
+  max-width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section-subhead, .section-subtitle {
+  font-weight: 500;
+  color: #00b69d;
+  font-size: .625rem;
+  line-height: 2.6;
+  letter-spacing: .4em;
+  text-transform: uppercase;
+}
+.App{
+  height: auto;
+    width: 100%;
+    background-color: #0b1e38;
+}
