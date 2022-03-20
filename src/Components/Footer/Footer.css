@@ -7,11 +7,7 @@
     padding-bottom: 50px;
     background: #0b1e38;
 }
-.center {
-    max-width: 980px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 .site-footer .footer-credits .credits-left {
     float: left;
 }
