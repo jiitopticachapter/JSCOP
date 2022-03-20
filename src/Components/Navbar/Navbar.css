@@ -9,6 +9,8 @@
     /* border: 1px solid #1C2333; */
     padding: 20px;
     position:fixed;
+    visibility: visible;
+    /* background-color: aqua; */
   }
   
   .navbar__left{
