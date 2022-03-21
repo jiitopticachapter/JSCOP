@@ -2,7 +2,9 @@ import React from "react";
 import "./Sponsors.css";
 function Sponsors() {
   return (
+
     <div className="SponsorsPage">
+      
       <header className="page-header">
         <div className="center">
           <div className="page-title">
