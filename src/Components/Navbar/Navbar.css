@@ -1,41 +1,103 @@
 .navbar{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    border-bottom: 5px;
-    color: #F5F9FC;
-    /* text-shadow: 2px 2px 60px var(--accent-primary-default); */
-    background-color:transparent;
-    /* border: 1px solid #1C2333; */
-    padding: 20px;
-    position:fixed;
-    visibility: visible;
-    /* background-color: aqua; */
-  }
-  
-  .navbar__left{
-    flex: 0.3;
-  }
-  
-  .navbar__right{
-    display: flex;
-    flex-direction: row;
-    /* justify-content:space-around; */
-    flex:0.7;
-    white-space: nowrap;
-    align-items: center;
+  display: flex;
+ flex-direction: row;
+ width: 100%;
+ border-bottom: 5px;
+ color: #f4f2f8; 
+ 
+  text-shadow: 2px 2px 60px var(--accent-primary-default); 
+  background-color:transparent; 
+  border: 1px solid #1C2333;
+ padding: 20px;
+ position:fixed; 
+ 
+ 
+ 
+}
+
+.navbar__left{
+ flex: 0.3;
+}
+
+.navbar__right{
+ display: flex;
+ flex-direction: row;
+ /* justify-content:space-around; */
+ flex:0.7;
+ white-space: nowrap;
+ align-items: center;
+ /* @media screen and (max-width:1200px) and (min-width:768px){
+   color:black;
+   
+ } */
 }
 .navbar__right h3{
 
-    padding: 3px 20px;
-    font-size: 16px;
-    font-weight: 500;
-    border-bottom: 1px solid transparent;
+ padding: 3px 20px;
+ font-size: 16px;
+ font-weight: 500;
+ border-bottom: 1px solid transparent;
 
-  }
+}
 
 .logo{
-      height: 55px;
-      padding-left: 20px;
-      
+   height: 55px;
+   padding-left: 20px;
+   
 }
+@media screen and (min-width:1200px){
+.navbar{
+ backdrop-filter: saturate(180%) blur(20px);
+ background:#000000b4;
+}
+
+}
+@media screen and (max-width:1200px) and (min-width:1024px){
+.navbar__right{
+ position: relative;
+ right: 1.5cm;
+}
+.navbar{
+ backdrop-filter: saturate(180%) blur(20px);
+ background:#602c9179;
+}
+
+}
+@media screen and (max-width:1024px) and (min-width:880px){
+.navbar__right h3{
+ position: relative;
+ right: 1.2cm;
+ font-size: 16px;
+ padding: 2px 15px;
+}
+.navbar{
+ backdrop-filter: saturate(180%) blur(20px);
+ background:#602c9179;
+}
+}
+@media screen and (max-width:880px) and (min-width:768px){
+.navbar__right h3{
+ position: relative;
+ right: 2cm;
+ font-size: 13px;
+ padding: 2px 13px;
+}
+.navbar{
+ backdrop-filter: saturate(180%) blur(20px);
+ background:#602c9179;
+}
+}
+@media screen and (max-width:768px){
+.navbar__right h3{
+ position: relative;
+ right: 8.7cm;
+ top:2cm;
+ font-size: 13px;
+ padding: 2px 13px;
+}
+.navbar__right{
+ display:grid;
+}
+
+}
+
