@@ -1,0 +1,21 @@
+.imageBox {
+  display: flex;
+  justify-content: center;
+  height: 35vh;
+  min-width: 350px;
+  margin-bottom: 25px;
+}
+
+.imageBox__box {
+  width: 60%;
+  padding-top: 1rem;
+  background-color: aliceblue;
+}
+
+.imageBox__image {
+  width: 85%;
+  height: 79%;
+  object-fit: cover;
+  object-position: bottom;
+  margin: 0;
+}

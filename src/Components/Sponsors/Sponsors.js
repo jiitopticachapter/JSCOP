@@ -2,7 +2,7 @@ import React from "react";
 import "./Sponsors.css";
 function Sponsors() {
   return (
-    <div className="SponsorsPage">
+    <div className="SponsorsPage" id="sponsor">
       <header className="page-header">
         <div className="center">
           <div className="page-title">
