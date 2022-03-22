@@ -1,5 +1,6 @@
 .Speakers{
     background-color: #0b1e38;
+    padding-top:50px;
 }
 
 .backgroundcliptext  section[type=whats-new] .section-subhead {
@@ -8,11 +9,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.grid-content{
+
+}
+.post .post-picture:before {
+    position: absolute;
+    top: 11px;
+    left: 125px;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: rgba(0,0,0,.27);
+    -webkit-filter: blur(75px);
+    filter: blur(75px);
+    z-index: -1;
+}
+.u-clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
  section[type=whats-new] .section-header {
     -webkit-transform-origin: left top;
     transform-origin: left top;
     -webkit-transform: skewY(-11.5deg);
-    transform: skewY(-11.5deg);
+    transform: skewY(-11.5deg);padding-top:50px;
 }
 .backgroundcliptext  section[type=whats-new] .section-subhead {
     display: inline-block;

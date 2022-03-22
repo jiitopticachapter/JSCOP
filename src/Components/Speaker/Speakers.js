@@ -3,7 +3,7 @@ import "./Speakers.css";
 
 function Speakers() {
   return (
-    <div className="Speakers">
+    <div className="Speakers" id="speaker">
       <section type="whats-new" in-view="fade-up" className="in-view">
         <header className="section-header">
           <div className="center">
@@ -28,7 +28,7 @@ function Speakers() {
                 <div className="post-picture">
                   <figure className="wave-container">
                     <img
-                      src="https://www.JSCOP.be/2022/files/templates/JSCOP2022/public/assets//images/portals/JSCOP-pro.jpg"
+                      src="Anshika.jpeg"
                       alt="JSCOP.Pro"
                       style={{opacity: 1}}
                     />
@@ -91,7 +91,7 @@ function Speakers() {
                     business connections at the JSCOP Festival.
                   </p>
                   <a
-                    href="https://www.JSCOP.be/2022/en/JSCOP-pro"
+                    href="https://www.JSCOp.be/2022/en/JSCOP-pro"
                     className="post-button-site"
                     type="button"
                     layout="handwritten"
@@ -123,7 +123,7 @@ function Speakers() {
                 <div className="post-picture">
                   <figure className="wave-container">
                     <img
-                      src="https://www.JSCOP.be/2022/files/templates/JSCOP2022/public/assets//images/portals/JSCOP_design-home.jpg"
+                      src="https://www.kikk.be/2022/files/templates/kikk2022/public/assets/images/portals/kikk_design-home.jpg"
                       alt="JSCOP.Design"
                     />
                   </figure>

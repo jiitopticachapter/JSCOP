@@ -1,0 +1,126 @@
+.gallery {
+  display: flex;
+  padding: 0px;
+  transition: 0.3s;
+}
+/* buttons css */
+.button_gallery, .flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-links {
+	display: flex;
+}
+
+.year-btn {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	background: black;
+	margin: 5px;
+	transition: 1s;
+  opacity: 50%;
+}
+
+.year-btn span {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+}
+
+.year-btn:hover {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.year-btn:hover span {
+	padding: 2px;
+	width: max-content;
+}
+
+/* gallery css */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: auto;
+
+}
+.gallery:hover .gallery__image {
+  filter: grayscale(1);
+}
+.gallery__column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+.gallery__thumb {
+  margin: 0%;
+  overflow: hidden;
+}
+.gallery__thumb:hover .gallery__image {
+  filter: grayscale(0);
+}
+.gallery__thumb:hover .gallery__caption {
+  opacity: 1;
+}
+.gallery__thumb {
+  margin: 2%;
+  padding: 0;
+}
+.gallery__image {
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+.gallery__image:hover {
+  transform: scale(1.1);
+}
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}
+.gallery__column>img{
+  object-fit: cover;
+}
+@media screen and (max-width: 900px) {
+  .gallery__column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery__column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* @media screen and (max-width: 1200px) {
+  .gallery__column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+} */

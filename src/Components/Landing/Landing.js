@@ -4,7 +4,7 @@ import { Parallax, ParallaxProvider } from 'react-scroll-parallax'
 
 function Landing() {
   return (
-    <div className='landing'>
+    <div className='landing' id="home">
       <ParallaxProvider>
       <Parallax speed={-50}>
       <section className="star-animation">

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import landingi from "./logo-white.png";
+import gallery from '../Gallery/Gallery';
 
 function Navbar() {
   return (
@@ -10,6 +11,8 @@ function Navbar() {
         <img src={landingi} alt="Optica logo" className="logo" />
       </div>
       <div className="navbar__right">
+
+        <h3> <a href="#home">Home</a> </h3>
         <h3> <a href="#about">About</a> </h3>
         <h3> <a href="#timeline">Timeline</a> </h3>
         <h3> <a href="#events">Events</a> </h3>
@@ -17,6 +20,8 @@ function Navbar() {
         <h3> <a href="#speaker">speakers</a> </h3>
         <h3> <a href="#sponsor">sponsors</a> </h3>
         <h3> <a href="#team">Our Team</a> </h3>
+        <h3> <a href={gallery}>Gallery</a> </h3>
+        
       </div>
     </div>
   );
