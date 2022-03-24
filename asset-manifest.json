@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/JSCOP4.0/static/css/main.d8bc25db.css",
+    "main.js": "/JSCOP4.0/static/js/main.a50a136d.js",
+    "static/js/787.32a047d6.chunk.js": "/JSCOP4.0/static/js/787.32a047d6.chunk.js",
+    "static/media/California.ttf": "/JSCOP4.0/static/media/California.cb28176f5a1ec682c3f9.ttf",
+    "static/media/landing-bg.jpeg": "/JSCOP4.0/static/media/landing-bg.7e8d72121199fbc9ce32.jpeg",
+    "static/media/dots-bkgd.7f2f0eb8.svg": "/JSCOP4.0/static/media/dots-bkgd.7f2f0eb8.7f2f0eb821021a6dd51c6bed6420e6e6.svg",
+    "index.html": "/JSCOP4.0/index.html",
+    "main.d8bc25db.css.map": "/JSCOP4.0/static/css/main.d8bc25db.css.map",
+    "main.a50a136d.js.map": "/JSCOP4.0/static/js/main.a50a136d.js.map",
+    "787.32a047d6.chunk.js.map": "/JSCOP4.0/static/js/787.32a047d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8bc25db.css",
+    "static/js/main.a50a136d.js"
+  ]
+}
