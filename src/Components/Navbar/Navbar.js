@@ -1,30 +1,48 @@
-import React from "react";
-import "./Navbar.css";
-import landingi from "./logo-white.png";
-import gallery from '../Gallery/Gallery';
+import React from 'react';
+import {
+  Nav,
+  NavLink,
+  Bars,
+  NavMenu,
+} from './NavbarElements';
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="navbar__left">
-        {/* <img src="./images/logo-black.png" alt="Optica logo" /> */}
-        <img src={landingi} alt="Optica logo" className="logo" />
-      </div>
-      <div className="navbar__right">
-
-        <h3> <a href="#home">Home</a> </h3>
-        <h3> <a href="#about">About</a> </h3>
-        <h3> <a href="#timeline">Timeline</a> </h3>
-        <h3> <a href="#events">Events</a> </h3>
-        <h3> <a href="#contact-us">Contact</a> </h3>
-        <h3> <a href="#speaker">speakers</a> </h3>
-        <h3> <a href="#sponsor">sponsors</a> </h3>
-        <h3> <a href="#team">Our Team</a> </h3>
-        <h3> <a href={gallery}>Gallery</a> </h3>
-        
-      </div>
+    <div className='wrap'>
+      <Nav>
+        <NavLink to='/'>
+          {/* <img src={require('../../public/logo-black.png')} alt='logo' /> */}
+        </NavLink>
+        <Bars />
+        <NavMenu>
+          <NavLink to='#landing' smooth>
+          Home
+          </NavLink>
+          <NavLink to='#about' smooth>
+        About
+          </NavLink>
+          <NavLink to='#speakers' smooth>
+       Speakers
+          </NavLink>
+          <NavLink to='#timeline' smooth>
+           Timeline
+          </NavLink>
+          <NavLink to='/sponsor' smooth>
+          Sponsors
+          </NavLink>
+          <NavLink to='/Gallery' smooth>
+          Gallery
+          </NavLink>
+          <NavLink to='#team' smooth>
+         Our Team
+          </NavLink>
+          <NavLink to='#footer' smooth>
+         Contact Us
+          </NavLink>
+        </NavMenu>
+      </Nav>
     </div>
   );
-}
+};
 
 export default Navbar;

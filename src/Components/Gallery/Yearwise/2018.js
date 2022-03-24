@@ -6,102 +6,102 @@ function Yearwise(props) {
 	return (
 		<div>
 
-			<div class="button_gallery">
-				<div class='social-links'>
-					<div class='year-btn flex-center' id="year">
+			<div className="button_gallery">
+				<div className='social-links'>
+					<div className='year-btn flex-center' id="year">
 						<div></div>
 						<span>2018</span>
 					</div>
 
-					<div class='year-btn flex-center' id="year">
+					<div className='year-btn flex-center' id="year">
 						<span>2019</span>
 					</div>
 
-					<div class='year-btn flex-center' id="year">
+					<div className='year-btn flex-center' id="year">
 						<span>2020</span>
 					</div>
 				</div>
 			</div>
 
-			<div class="gallery">
+			<div className="gallery">
 
-				<div class="row">
+				<div className="row">
 
-					<div class="gallery__column">
-						<a href="https://unsplash.com/@jeka_fe" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/_cvwXhGqG-o/300x300" alt="Portrait by Jessica Felicio" class="gallery__image" />
+					<div className="gallery__column">
+						<a href="https://unsplash.com/@jeka_fe" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/_cvwXhGqG-o/300x300" alt="Portrait by Jessica Felicio" className="gallery__image" />
 							</figure>
 						</a>
 
-						<a href="https://unsplash.com/@oladimeg" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="Portrait by Oladimeji Odunsi" class="gallery__image" />			</figure>
+						<a href="https://unsplash.com/@oladimeg" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="Portrait by Oladimeji Odunsi" className="gallery__image" />			</figure>
 						</a>
 
-						<a href="https://unsplash.com/@a2eorigins" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/VLPLo-GtrIE/300x300" alt="Portrait by Alex Perez" class="gallery__image" />
-							</figure>
-						</a>
-					</div>
-
-					<div class="gallery__column">
-						<a href="https://unsplash.com/@noahbuscher" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/AR7aumwKr2s/300x300" alt="Portrait by Noah Buscher" class="gallery__image" />
-							</figure>
-						</a>
-
-						<a href="https://unsplash.com/@von_co" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/dnL6ZIpht2s/300x300" alt="Portrait by Ivana Cajina" class="gallery__image" />
-							</figure>
-						</a>
-
-						<a href="https://unsplash.com/@samburriss" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/tV_1sC603zA/300x500" alt="Portrait by Sam Burriss" class="gallery__image" />
+						<a href="https://unsplash.com/@a2eorigins" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/VLPLo-GtrIE/300x300" alt="Portrait by Alex Perez" className="gallery__image" />
 							</figure>
 						</a>
 					</div>
 
-					<div class="gallery__column">
-						<a href="https://unsplash.com/@marilezhava" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="Portrait by Mari Lezhava" class="gallery__image" />
+					<div className="gallery__column">
+						<a href="https://unsplash.com/@noahbuscher" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/AR7aumwKr2s/300x300" alt="Portrait by Noah Buscher" className="gallery__image" />
 							</figure>
 						</a>
 
-						<a href="https://unsplash.com/@ethanhaddox" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="Portrait by Ethan Haddox" class="gallery__image" />
+						<a href="https://unsplash.com/@von_co" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/dnL6ZIpht2s/300x300" alt="Portrait by Ivana Cajina" className="gallery__image" />
 							</figure>
 						</a>
 
-						<a href="https://unsplash.com/@mr_geshani" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="Portrait by Amir Geshani" class="gallery__image" />
+						<a href="https://unsplash.com/@samburriss" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/tV_1sC603zA/300x500" alt="Portrait by Sam Burriss" className="gallery__image" />
 							</figure>
 						</a>
 					</div>
 
-					<div class="gallery__column">
-						<a href="https://unsplash.com/@frxgui" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux" class="gallery__image" />
+					<div className="gallery__column">
+						<a href="https://unsplash.com/@marilezhava" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="Portrait by Mari Lezhava" className="gallery__image" />
 							</figure>
 						</a>
 
-						<a href="https://unsplash.com/@majestical_jasmin" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="Portrait by Jasmin Chew" class="gallery__image" />
+						<a href="https://unsplash.com/@ethanhaddox" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="Portrait by Ethan Haddox" className="gallery__image" />
 							</figure>
 						</a>
 
-						<a href="https://unsplash.com/@dimadallacqua" class="gallery__link">
-							<figure class="gallery__thumb">
-								<img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="Portrait by Dima DallAcqua" class="gallery__image" />
+						<a href="https://unsplash.com/@mr_geshani" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="Portrait by Amir Geshani" className="gallery__image" />
+							</figure>
+						</a>
+					</div>
+
+					<div className="gallery__column">
+						<a href="https://unsplash.com/@frxgui" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux" className="gallery__image" />
+							</figure>
+						</a>
+
+						<a href="https://unsplash.com/@majestical_jasmin" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="Portrait by Jasmin Chew" className="gallery__image" />
+							</figure>
+						</a>
+
+						<a href="https://unsplash.com/@dimadallacqua" className="gallery__link">
+							<figure className="gallery__thumb">
+								<img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="Portrait by Dima DallAcqua" className="gallery__image" />
 							</figure>
 						</a>
 					</div>

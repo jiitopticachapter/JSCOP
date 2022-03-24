@@ -1,102 +1,11 @@
-.site-footer .footer-partners {
-    font-size: 0;
-    background-color: #fff;
-}
-.site-footer .footer-credits {
-    padding-top: 60px;
-    padding-bottom: 50px;
-    background: #0b1e38;
-}
-
-.site-footer .footer-credits .credits-left {
-    float: left;
-}
-.site-footer .footer-credits .credits-right {
-    float: right;
-    margin-top: 33px;
-}
-.u-clearfix:after {
-    clear: both;
-    content: "";
-    display: table;
-}
-.site-footer {
-    position: relative;
-    font-family: sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1rem;
-    line-height: 2;
-    z-index: 80;
+.Footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #0b1e38;
+    padding: 15px;
     justify-content: center;
     align-items: center;
-}
-.site-footer .footer-credits h3,h4 {
-    font-weight: 300;
-    font-size: .625rem;
-    line-height: 2;
-    letter-spacing: .4em;
-    /* text-transform: uppercase; */
-    color: hsla(0,0%,100%,.5);
-    display: inline-block;
-    margin-right: 20px;
-    vertical-align: middle;
-   
-}
-.site-footer .footer-credits .credits-left ul {
-    display: inline-block;
-    vertical-align: middle;
-}
-.site-footer .footer-credits ul {
-    font-size: 0;
-}
-.site-footer .footer-credits li {
-    font-weight: 300;
-    font-size: .625rem;
-    line-height: 2;
-    letter-spacing: .4em;
-    text-transform: uppercase;
-    color: hsla(0,0%,100%,.5);
-    display: inline-block;
-    vertical-align: middle;
-}
-.site-footer .footer-credits a {
-    color: #fff;
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-}
-
-@media (max-width: 61.24em)
-{.center {
-    padding-left: 30px;
-    padding-right: 30px;
-}}
-.site-footer .footer-credits .credits-right li:nth-last-child(2) {
-    margin-right: 20px;
-}
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-@media (max-width: 61.24em)
-{.site-footer .footer-credits .credits-right {
-    float: none;
-}}
-.site-footer .footer-credits .credits-right li:after {
-    content: "|";
-    margin-right: 10px;
-    margin-left: 10px;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-
-li:last-child:after {
-    display: none;
+    color: rgba(185,215,255,.5);
+    font-family: "Neue Montreal"
 }
