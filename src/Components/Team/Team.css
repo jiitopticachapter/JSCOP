@@ -62,6 +62,7 @@ section[type=grid] .grid-list {
     width: 21%;
     -webkit-transform: none;
     transform: none;
+    padding-right:20px;
 }
 /* @media (min-width: 61.25em)
 {section[type=grid] .grid-item:nth-child(3n+2) {

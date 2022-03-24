@@ -1,0 +1,73 @@
+.SponsorsMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ padding:50px 0 50px 0;
+ background-color: #0b1e38;
+}
+
+@keyframes no-transform {
+  100% {
+    transform: none;
+  }
+}
+.scrollbox {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  overflow: hidden;
+  height:120px;
+  will-change: transform;
+  white-space: nowrap;
+}
+.scrollbox--primary {
+  
+  color: #fff;  background-color: #0b1e38;
+ 
+}
+.scrollbox img{
+    height:200px;
+}
+.scrollbox--secondary {
+  /* background-color: #2f722f; */
+  background-color: #0b1e38;
+  color: #fff;
+}
+.scrollbox--reverse .scrollbox__item {
+  animation-direction: reverse;
+}
+.scrollbox:hover .scrollbox__item {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.scrollbox__item {
+  flex: 1 0 auto;
+  width: 25%;
+  max-width: 25%;
+  font-size: 1.5rem;
+  margin-right:15px;
+  transform: translateX(-100%);
+  -webkit-animation: marquee 20.5s linear infinite;
+          animation: marquee2 20.5s linear infinite;
+}
+@keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee2 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }

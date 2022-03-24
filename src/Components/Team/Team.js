@@ -32,37 +32,37 @@ function Team() {
               <div className="grid-item">
                 <div in-view="fade-up" className="in-view">
                   <figure className="grid-picture wave-container">
-                    <img src="ayush.jfif" alt="Gaetan Libertiaux" />
+                    <img src="Anshika.jpeg" alt="Gaetan Libertiaux" />
                   </figure>
                   <h2 className="grid-title">
-                    Gaetan
-                    <br /> Libertiaux
+                   Anshika
+                    <br /> Jain
                   </h2>
-                  <p className="grid-subtitle">Art Director and founder</p>
+                  <p className="grid-subtitle">Vice president Of Optica Jiit</p>
                 </div>
               </div>
               <div className="grid-item">
                 <div in-view="fade-up" className="in-view">
                   <figure className="grid-picture wave-container">
-                    <img src="ayush.jfif" alt="Gaetan Libertiaux" />
+                    <img src="Sparsh.jpg" alt="Gaetan Libertiaux" />
                   </figure>
                   <h2 className="grid-title">
-                    Gaetan
-                    <br /> Libertiaux
+                    Sparsh
+                    <br /> Gupta
                   </h2>
-                  <p className="grid-subtitle">Art Director and founder</p>
+                  <p className="grid-subtitle">Treasurer</p>
                 </div>
               </div>
               <div className="grid-item">
                 <div in-view="fade-up" className="in-view">
                   <figure className="grid-picture wave-container">
-                    <img src="ayush.jfif" alt="Gaetan Libertiaux" />
+                    <img src="Ishan.jpg" alt="Gaetan Libertiaux" />
                   </figure>
                   <h2 className="grid-title">
-                    Gaetan
-                    <br /> Libertiaux
+                   Ishan
+                    <br /> Saxena
                   </h2>
-                  <p className="grid-subtitle">Art Director and founder</p>
+                  <p className="grid-subtitle">SECRATARY</p>
                 </div>
               </div>
             </div>
