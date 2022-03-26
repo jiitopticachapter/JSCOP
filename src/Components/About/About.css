@@ -44,11 +44,11 @@ img.dots {
 }
 @media (max-width: 992px)
 {#cont {
-    font-size: 1.2rem;
+    font-size: 6rem;
 }}
 #cont, #logo {
-    padding: 3.5vh;
-    font-size: 1.5vw;
+    padding: 0.5vh;
+    font-size: 5.2vw;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
