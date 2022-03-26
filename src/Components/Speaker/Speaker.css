@@ -3,9 +3,8 @@
     padding-top:50px;
 }
 .post {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
+    justify-content: center;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
