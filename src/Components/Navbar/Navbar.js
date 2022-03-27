@@ -21,7 +21,7 @@ const Navbar = () => {
           <span className="menu">
             <span className="hamburger"></span>
           </span>
-          <ul>
+          <ul className='MENU'>
             <li>
               <Link to='/#landing'>Home</Link>
             </li>
