@@ -15,7 +15,8 @@ function Team() {
         </header>
 
         <div className="grid-content">
-          <div className="center">
+          {/* <div className="center"> */}
+          <div className="grid1">
             <div className="grid-list u-clearfix">
               <div className="grid-item">
                 <div in-view="fade-up" className="in-view">
@@ -41,6 +42,8 @@ function Team() {
                   <p className="grid-subtitle">Vice president Of Optica Jiit</p>
                 </div>
               </div>
+            
+              <div className="grid2">
               <div className="grid-item">
                 <div in-view="fade-up" className="in-view">
                   <figure className="grid-picture wave-container">
@@ -67,7 +70,9 @@ function Team() {
               </div>
             </div>
           </div>
-        </div>
+          </div>
+          </div>
+        {/* </div> */}
       </section>
     </div>
   );

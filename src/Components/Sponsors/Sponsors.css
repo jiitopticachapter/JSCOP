@@ -21,6 +21,11 @@ h2 {
     font-size: 1.5em;
     font-weight: bold;
 }
+@media(max-width:407px){
+    h2{
+        font-size:1em !important;
+    }
+}
 
 @media (min-width: 46.25em)
 {.page-header .page-title {

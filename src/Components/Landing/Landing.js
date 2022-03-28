@@ -9,6 +9,7 @@ import Team from '../Team/Team'
 import Footer from '../Footer/Footer'
 
 function Landing() {
+  
   return (
     <>
       <div className='landing' id="home">
@@ -26,13 +27,14 @@ function Landing() {
               <span></span>
               <span></span>
             </section>
-            <img className='landing__Heading' src="JSCOP@4x.png" alt="" />
-            {/* <h3 className='landing__Heading'> JSCOP</h3> */}
+            {/* <img className='landing__Heading' src="JSCOP@4x.png" alt="" /> */}
           </Parallax>
         </ParallaxProvider>
+            <h3 className='landing__Heading'> JSCOP</h3>
+            <button class="mv" onclick="parent.location='http://opencon.ieeevit.org/register.html'">Register Now</button>
       </div>
-      <About />
-      <Speakers />
+       <About />
+     <Speakers />
       <Timeline />
       <SponsorsMain />
       <Team />
