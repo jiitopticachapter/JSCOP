@@ -12,11 +12,12 @@ import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team";
 import Timeline from "./Components/Timeline/Timeline";
 import Sidebar from "./Components/Sidebar/Sidebar";
+import Registration from "./Components/Registration/Registration";
 
 function App() {
   return (
     <div className="app">
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Router>
         <Navbar sticky="top" />
         <Switch>
@@ -28,6 +29,7 @@ function App() {
           <Route path='#Team' exact component={Team} />
           <Route path='/Gallery' exact> <Gallery /> </Route>
           <Route path='#Footer' exact component={Footer} />
+          <Route path='/Register' exact component={Registration} />
         </Switch>
       </Router>
     </div>

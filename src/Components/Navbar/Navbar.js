@@ -46,6 +46,9 @@ const Navbar = () => {
             <li>
               <Link to='/#footer'>Contact Us</Link>
             </li>
+            <li>
+              <Link to='/Register'>Register</Link>
+            </li>
           </ul>
         </label>
         <NavMenu>
@@ -72,6 +75,9 @@ const Navbar = () => {
           </NavLink>
           <NavLink to='/#footer' smooth>
             Contact Us
+          </NavLink>
+          <NavLink to='/Register' smooth>
+            Register
           </NavLink>
         </NavMenu>
       </Nav>
