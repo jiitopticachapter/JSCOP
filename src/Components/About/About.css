@@ -1,3 +1,4 @@
+
 img.dots {
     height: 50vh;
     width: 20vw;
@@ -26,29 +27,32 @@ img.dots {
 }}
 
 .about__content {
-    margin-top: 1vh;
+    /* margin-top: 1vh;
+    align-items: center; */
+    margin-left: 22%;
     width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     top: -40vh;
     display: flex;
 }
 
 #about {
+    /* background-image: url("/public/about_background.jpg"); */
+    background-repeat: no-repeat;
+  background-size:cover;
     font-weight: 700;
     font-size: 6vh;
     font-style: italic;
     padding: 3.5vh;
     font-family: NeueMontreal-Italic;
+    color: white;
 }
 @media (max-width: 992px)
-{#cont {
-    font-size: 1.2rem;
-}}
+{ #cont {
+    font-size: 6rem;
+}
 #cont, #logo {
-    padding: 3.5vh;
-    font-size: 1.5vw;
+    font-size: 4.2vw;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -58,15 +62,30 @@ img.dots {
     margin: auto;
     font-family: NeueMontreal-Regular;
 }
+.content__left{
+    align-items: center;
+    flex:0.6;
+    width:100%
+}
+}
+#cont, #logo {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    font-family: NeueMontreal-Regular;
+    color: white;
+}
+
 
 .MuiTypography-body1 {
     font-size: 1rem;
     font-family: Inter;
     font-weight: 400;
     line-height: 1.5;
-}
-.MuiTypography-root {
-    margin: 0;
 }
 p {
     margin: 0;
@@ -85,11 +104,7 @@ p {
     flex:0.6;
     width:50%
 }
-.content__right{
-    flex: 0.4;
-    margin:20px;
-    width:50%
-}
+
 @media (max-width: 1024px)
 {.event-sec-left, .event-sec-right {
     align-items: center;

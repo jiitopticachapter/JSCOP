@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 import "./Sponsors.css";
 function Sponsors() {
   return (
     <div className="SponsorsPage" id="sponsor">
+      <Navbar/>
       <header className="page-header">
         <div className="center">
           <div className="page-title">

@@ -1,6 +1,8 @@
 .Team{
-    background-color: #0b1e38;
+    /* background-color: #0b1e38; */
     padding-top: 100px;
+    background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    color:transparent; 
     
 }
  section[type=grid] {
@@ -40,7 +42,9 @@ section[type=grid] .grid-list {
 }}
 @media (max-width: 61.24em)
 { section[type=grid] .grid-item {
-    width: 33.333%;
+    width: 43.333% !important;
+    justify-content: center;
+    align-items: center;
 }}
 
 @media (min-width: 46.25em)
@@ -59,7 +63,7 @@ section[type=grid] .grid-list {
  section[type=grid] .grid-item {
     margin-bottom: 60px;
     padding-bottom: 0;
-    width: 21%;
+    width: 22%;
     -webkit-transform: none;
     transform: none;
     padding-right:20px;
@@ -80,8 +84,10 @@ section[type=grid] .grid-list {
 
 section[type=grid] .grid-list {
     position: relative;
-    margin-right: -17px;
-    margin-left: -17px;
+    /* margin-right: -17px;
+    margin-left: -17px; */
+    justify-content: center;
+    align-items: center;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -177,6 +183,17 @@ section[type=grid] .grid-subtitle {
     /* padding-left: 100px;
     padding-right: 30px; */
     min-height: 43.2px;
+}
+.grid-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (max-width: 61.24em)
 {section[type=grid] .grid-subtitle {

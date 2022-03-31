@@ -1,5 +1,7 @@
 .SponsorsPage{
-    background-color: #0b1e38;
+    /* background-color: #0b1e38; */
+    /* background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png); */
+    color:transparent; 
 }
 [type=button][layout=sponsor], [type=submit][layout=sponsor] {
     background-image: url(sponsor-bursh-1.png);
