@@ -26,7 +26,7 @@ function Home() {
 
 <h1 className="jscop">JSCOP<br/> be better!</h1>
 
-<div id="object2"></div>
+{/* <div id="object2"></div> */}
 
 <img src={planet} alt="logo" className="p-3" />
 </section>

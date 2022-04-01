@@ -13,7 +13,7 @@ function Landing() {
   return (
     <>
       <div className="home" id="home">
-      <Navbar/>
+      {/* <Navbar/> */}
       
       <section id="main" class="grid-container grid-container--home">
   <div>
@@ -34,11 +34,11 @@ function Landing() {
       </div>
       {/* <About /> */}
 
-      <Speakers />
+      {/* <Speakers />
       <Timeline />
       <SponsorsMain />
       <Team />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

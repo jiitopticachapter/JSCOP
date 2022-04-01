@@ -5,13 +5,13 @@
     background-repeat: no-repeat;
     height: 100vh;
     background-size:cover;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .p-1 {
     width: 150px;
-    margin-top: 50px;
-    margin-left: 50px;
+    /* margin-top: 50px; */
+    margin-left: -450px;
     animation: rotate 50s linear infinite;
 }
 @keyframes rotate{
@@ -48,7 +48,8 @@
 .m {
     width: 150px;
     top: 35px;
-    position: absolute;
+    /* position: absolute; */
+    margin-left: 50%;
     right: 50px;
     animation: float 6s ease-in-out infinite;
 }
@@ -111,11 +112,14 @@
         transform: rotate3d(0, 0, 1, -45deg);
     }
 }
+#main{
+    overflow:hidden;
+}
 
 .p-3 {
-    position: absolute;
+    /* position: absolute; */
     width: 729px;
-    top: 70%;
-    left: 22%;
+    margin-top: -5%;
+    margin-left: -120%;
     animation: rotate 50s linear infinite;
 }
