@@ -1,6 +1,8 @@
 .Team{
-    background-color: #0b1e38;
+    /* background-color: #0b1e38; */
     padding-top: 100px;
+    background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    color:transparent; 
     
 }
  section[type=grid] {

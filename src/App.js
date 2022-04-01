@@ -12,15 +12,18 @@ import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team";
 import Timeline from "./Components/Timeline/Timeline";
 import Sidebar from "./Components/Sidebar/Sidebar";
+import Registration from "./Components/Registration/Registration";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <div className="app">
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Router>
-        <Navbar sticky="top" />
+        {/* <Navbar sticky="top" /> */}
         <Switch>
-          <Route path='/' exact component={Landing} />
+          {/* <Route path='/' exact component={Landing} /> */}
+          <Route path='/' exact component={Home} />
           <Route path='#about' exact component={About} />
           <Route path='#Speakers' exact component={Speakers} />
           <Route path='/sponsor' exact component={Sponsors} />
@@ -28,6 +31,7 @@ function App() {
           <Route path='#Team' exact component={Team} />
           <Route path='/Gallery' exact> <Gallery /> </Route>
           <Route path='#Footer' exact component={Footer} />
+          <Route path='/Register' exact component={Registration} />
         </Switch>
       </Router>
     </div>

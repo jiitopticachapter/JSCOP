@@ -7,7 +7,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  padding:50px 0 50px 0;
- background-color: #0b1e38;
+ /* background-color: #0b1e38; */
+ background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+ color:transparent; 
 }
 
 @keyframes no-transform {
@@ -26,7 +28,7 @@
 }
 .scrollbox--primary {
   
-  color: #fff;  background-color: #0b1e38;
+  /* color: #fff;  background-color: #0b1e38; */
  
 }
 .scrollbox img{
@@ -34,7 +36,7 @@
 }
 .scrollbox--secondary {
   /* background-color: #2f722f; */
-  background-color: #0b1e38;
+  /* background-color: #0b1e38; */
   color: #fff;
 }
 .scrollbox--reverse .scrollbox__item {

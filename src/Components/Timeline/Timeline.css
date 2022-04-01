@@ -1,4 +1,7 @@
-.Timeline{background-color: #0b1e38 !important;
+.Timeline{
+     /* background-color: #0b1e38 !important; */
+     background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+     color:transparent; 
      align-items: center;}
 .vertical-timeline-element-date{
      color:#00b69d

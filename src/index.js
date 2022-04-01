@@ -7,6 +7,21 @@ import './fonts/California.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
+    <div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
     <App/>
   </React.StrictMode>,
   document.getElementById('root')

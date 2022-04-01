@@ -37,7 +37,6 @@ img.dots {
 }
 
 #about {
-    background-image: url("/public/about_background.jpg");
     background-repeat: no-repeat;
   background-size:cover;
     font-weight: 700;
