@@ -16,7 +16,7 @@ function Home() {
   return (
     <>
       <div className="home" id="home">
-      <Navbar/>
+      {/* <Navbar/> */}
       
       <section id="main" className="grid-container grid-container--home">
      
