@@ -3,11 +3,18 @@
     padding: 0;
     background: url(./images/back.jpg);
     background-repeat: no-repeat;
-    height: 110vh;
+    /* height: 110vh; */
     background-size:cover;
     width:100%;
     overflow: hidden;
     margin-top:-170px;
+    line-height: 1.5;
+    min-height: 100vh;
+    
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    
+    overflow-x: hidden;
 }
 
 .p-1 {
