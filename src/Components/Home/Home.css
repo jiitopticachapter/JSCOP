@@ -3,7 +3,7 @@
     padding: 0;
     background: url(./images/back.jpg);
     background-repeat: no-repeat;
-    /* height: 110vh; */
+     height: 110vh;
     background-size:cover;
     width:100%;
     overflow: hidden;
