@@ -134,7 +134,7 @@
 }
 @media (min-width: 700px) {
     .p-3{
-    margin-top: 20%;
+    margin-top: 8%;
     margin-left: -120%;
         
     }
@@ -168,7 +168,7 @@
 
 @media (max-width: 576px) {
     .m{
-        margin-top:-155px;
+        margin-top:-201px;
         width:199px;
         top:0;
     }
@@ -176,7 +176,7 @@
         margin-top:50px;
     }
     .p-3{
-        margin-top:50%;
+        margin-top:86%;
     }
     #home{
         height:120vh;
@@ -185,7 +185,7 @@
         margin-top:176px;
     }
     .jscop{
-        margin-bottom: 45%;
+        margin-bottom: 20%;
     }
 
 }
