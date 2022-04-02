@@ -14,7 +14,7 @@ function Faq() {
   }
 
   return (
-    <div className="faq">
+    <div className="faq" id="faq">
     <div className="wrapper">
     <header className="page-header">
         <div className="center">

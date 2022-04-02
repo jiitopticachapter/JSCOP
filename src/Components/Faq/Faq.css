@@ -78,5 +78,13 @@
 
   .help{
     color: #35e5fd;
-    padding:12px 20px 12px 99px;
+    padding:12px 36px 12px 30px;
+  }
+
+  @media (min-width: 500px) {
+    .help{
+      padding:12px 36px 12px 100px;
+    }
+
+
   }

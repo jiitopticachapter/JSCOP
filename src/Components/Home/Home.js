@@ -7,7 +7,6 @@ import Timeline from "../Timeline/Timeline";
 import SponsorsMain from "../Sponsors/SponsorsMain";
 import Team from "../Team/Team";
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/Navbar";
 import strage from './images/strage.png';
 import earth from "./images/earth.png";
 import planet from "./images/p-3.png";
@@ -40,8 +39,9 @@ function Home() {
 
       <Speakers />
       <Timeline />
-      <SponsorsMain />
+     
       <Faq/>
+      <SponsorsMain />
       <Team />
       <Footer />
     </>
