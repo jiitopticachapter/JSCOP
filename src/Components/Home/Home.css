@@ -1,11 +1,12 @@
-.home {
+#home {
     margin: 0;
     padding: 0;
     background: url(./images/back.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size:cover;
-    /* overflow: hidden; */
+    width:100%;
+    overflow: hidden;
 }
 
 .p-1 {
@@ -119,7 +120,26 @@
 .p-3 {
     /* position: absolute; */
     width: 729px;
-    margin-top: -5%;
+    margin-top: 20%;
     margin-left: -120%;
     animation: rotate 50s linear infinite;
+    z-index:0;
 }
+
+
+#layout { 
+    /* color:transparent;  */
+  
+    /* background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png); */
+    /* background-repeat: repeat-x, repeat-x repeat-y; */
+    transform:translate3D(0em, 0em, 0);
+    animation: stars 21s ease;
+    padding-bottom: 50px; 
+    
+  }
+  .stars {
+    z-index: 0;
+    position: absolute;
+    transform-style: preserve-3d;
+  }
+  

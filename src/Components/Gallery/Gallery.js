@@ -6,7 +6,7 @@ function Gallery() {
   return (
     <div id="layout" class="stars">
       <div className="Gallery" id="Gallery">
-      <Navbar/>
+      {/* <Navbar/> */}
       <header className="page-header">
         <div className="center">
           <div className="page-title">     

@@ -4,7 +4,7 @@ import "./Sponsors.css";
 function Sponsors() {
   return (
     <div className="SponsorsPage" id="sponsor">
-      <Navbar/>
+      {/* <Navbar/> */}
       <header className="page-header">
         <div className="center">
           <div className="page-title">
