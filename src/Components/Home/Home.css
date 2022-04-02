@@ -32,7 +32,19 @@
     font-family: system-ui;
     letter-spacing: 3px;
     word-spacing: 5px;
-    /* animation: blink 2s linear infinite; */
+    animation: blink 2s linear infinite;
+}
+
+@media (max-width: 700px) {
+    .jscop{
+
+    }
+
+    .p-3{
+        margin-top: -60px;
+        margin-left: 0;
+    }
+
 }
 @keyframes blink {
     0%{
