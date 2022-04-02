@@ -46,6 +46,9 @@ section[type] .center {
   letter-spacing: .4em;
   text-transform: uppercase;
 }
+.nvclass{
+  margin-right: -26%;
+}
 /* .App{
   height: auto;
     width: 100%;
