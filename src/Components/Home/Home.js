@@ -11,6 +11,7 @@ import Navbar from "../Navbar/Navbar";
 import strage from './images/strage.png';
 import earth from "./images/earth.png";
 import planet from "./images/p-3.png";
+import Faq from "../Faq/Faq";
 
 function Home() {
   return (
@@ -24,7 +25,8 @@ function Home() {
 
 <img src={strage} alt="logo" className="m" />
 
-<h1 className="jscop">JSCOP<br/> be better!</h1>
+<h1 className="jscop">JSCOP<br/> <button className="mv">Register Now</button></h1>
+
 
 {/* <div id="object2"></div> */}
 
@@ -39,6 +41,7 @@ function Home() {
       <Speakers />
       <Timeline />
       <SponsorsMain />
+      <Faq/>
       <Team />
       <Footer />
     </>

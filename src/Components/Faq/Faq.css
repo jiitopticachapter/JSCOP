@@ -1,0 +1,77 @@
+.outer-wrapper>h1{
+    align-items: center;
+    margin: auto;
+  }
+  /* .buttons > input[type="button"]:checked ~ .accordianA .buttons > input[type="buttons"]:checked ~ .carousel__prev > label, .carousel > input[type="radio"]:checked ~ .carousel__next > label {
+    opacity: 0;
+  }
+  .buttons>[input="button"]:nth-child(1):checked ~ .accordianA .item .title{
+    opacity: 1;
+  }
+  .buttons>[input="button"]:nth-child(2):checked ~ .accordianB .item .title{
+    opacity: 1;
+  } */
+  .plus{
+    font-size: 20px;
+  }
+  .faq__left{
+    padding:10px;
+    width:30%;
+    height:60vh;
+    justify-content: center ;
+    align-items: center;
+  }
+  .faq__right{
+   /* padding:15px;*/
+    /*width:90%;*/
+    justify-content: center ;
+    align-items: center;
+  }
+  .wrapper{
+    
+    
+    justify-content: center;
+    align-items: center;
+     margin:auto; 
+    width:90%;
+  }
+  .item{
+    /* background: white; */
+    margin-bottom: 1%;
+    padding: 15px;
+    
+  }
+  .faq{
+    height:max-content;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  flex-wrap: wrap;
+  background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+  }
+  
+  .title{
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    
+  }
+  
+  .content{
+    color: #ffff;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    border-bottom: 2px solid rgb(177, 175, 175);
+    padding:4px;
+  }
+  
+  .content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+    margin:15px 0 15px 0;
+  }
