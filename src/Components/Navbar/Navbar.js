@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
 import logo from './logo-white.png'
-import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
@@ -21,72 +20,71 @@ function Navbar() {
           className="primary-navigation underline-indicators flex"
         >
           <li className="active">
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="/"
+              href="/"
             >
               Home
-            </NavLink>
+            </a>
           </li>
           
           <li>
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="/#speakers"
+              href="/#speakers"
             >
               Speaker
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="/#timeline"
+              href="/#timeline"
             >
              Timeline
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="/#faq"
+              href="/#faq"
             >
              Faqs
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="/Gallery"
+              href="/Gallery"
             >
               Gallery
-            </NavLink>
+            </a>
           </li>
-          
           <li>
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="/sponsor"
+              href="/sponsor"
             >
            Sponsors
-            </NavLink>
+            </a>
           </li>
-          
-          
           <li>
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="/#team"
+              href="/#team"
             >
           Team
-            </NavLink>
+            </a>
           </li>
+         
+          
           <li>
-            <NavLink
+            <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              to="footer"
+              href="footer"
             >
              Contact
-            </NavLink>
+            </a>
           </li>
         </ul>
       </nav>
