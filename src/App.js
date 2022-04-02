@@ -20,7 +20,7 @@ function App() {
     <div className="app">
       {/* <Sidebar /> */}
       <Router>
-        <Navbar sticky="top" />
+        <Navbar  />
         <Switch>
           {/* <Route path='/' exact component={Landing} /> */}
           <Route path='/' exact component={Home} />
