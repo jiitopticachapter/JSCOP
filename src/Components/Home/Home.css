@@ -3,7 +3,7 @@
     padding: 0;
     background: url(./images/back.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 110vh;
     background-size:cover;
     width:100%;
     overflow: hidden;
@@ -34,6 +34,8 @@
     letter-spacing: 3px;
     word-spacing: 5px;
     animation: blink 2s linear infinite;
+    position: absolute;
+    margin-bottom: 40%;
 }
 
 
@@ -138,6 +140,32 @@
     }
 
 }
+
+
+@media (max-width: 1080px) {
+    
+    #home{
+        height:75vh;
+    }
+    .jscop{
+        margin-bottom: 65%;
+    }
+   
+
+}
+@media (max-width: 768px) {
+    
+    #home{
+        height:105vh;
+
+    }
+    .jscop{
+        margin-bottom: 65%;
+    }
+   
+
+}
+
 @media (max-width: 576px) {
     .m{
         margin-top:-155px;
@@ -151,11 +179,26 @@
         margin-top:50%;
     }
     #home{
-        height:176vh;
+        height:120vh;
     }
     #main{
         margin-top:176px;
     }
+    .jscop{
+        margin-bottom: 55%;
+    }
+
+}
+
+@media (max-width: 376px) {
+    
+    #home{
+        height:165vh;
+    }
+    .jscop{
+        margin-bottom: 65%;
+    }
+   
 
 }
 
