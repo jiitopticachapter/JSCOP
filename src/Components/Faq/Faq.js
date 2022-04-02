@@ -55,7 +55,7 @@ function Faq() {
           </div>  */}
 
     </div>
-          <h3>Couldn’t find your question? Hit us up at any below social handles and we will get back to as soon as possible.</h3>
+          <h3 className='help'>Couldn’t find your question? Hit us up at any below social handles and we will get back to as soon as possible.</h3>
     </div>
   );
 }
