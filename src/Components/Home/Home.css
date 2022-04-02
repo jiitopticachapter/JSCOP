@@ -7,12 +7,13 @@
     background-size:cover;
     width:100%;
     overflow: hidden;
+    margin-top:-170px;
 }
 
 .p-1 {
     width: 150px;
     /* margin-top: 50px; */
-    margin-left: -450px;
+    margin-left: -390px;
     animation: rotate 50s linear infinite;
 }
 @keyframes rotate{
@@ -35,17 +36,7 @@
     animation: blink 2s linear infinite;
 }
 
-@media (max-width: 700px) {
-    .jscop{
 
-    }
-
-    .p-3{
-        margin-top: -60px;
-        margin-left: 0;
-    }
-
-}
 @keyframes blink {
     0%{
         text-shadow: 0px 4px 26px #c582da;
@@ -127,15 +118,45 @@
 }
 #main{
     overflow:hidden;
+    margin-top:150px;
 }
 
 .p-3 {
     /* position: absolute; */
     width: 729px;
-    margin-top: 20%;
-    margin-left: -120%;
+    margin-top:5%;
+    /* margin-left: 0; */
+    
     animation: rotate 50s linear infinite;
     z-index:0;
+}
+@media (min-width: 700px) {
+    .p-3{
+    margin-top: 20%;
+    margin-left: -120%;
+        
+    }
+
+}
+@media (max-width: 576px) {
+    .m{
+        margin-top:-155px;
+        width:199px;
+        top:0;
+    }
+    .p-1{
+        margin-top:50px;
+    }
+    .p-3{
+        margin-top:50%;
+    }
+    #home{
+        height:176vh;
+    }
+    #main{
+        margin-top:176px;
+    }
+
 }
 
 
