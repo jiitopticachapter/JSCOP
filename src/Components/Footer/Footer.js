@@ -1,8 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import 'font-awesome/css/font-awesome.min.css'; 
-import { faHome } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
   return (
@@ -23,13 +22,13 @@ function Footer() {
               <div className="opticaLogoDiv">
                   <img className="opticaLogo" alt="logo" src="logo-white.png"/>
                   <ul id="menu">
-  <li><a href="#"><span class="fa fa-at"></span></a></li>
-  <li><a href="#"><span class="fa fa-odnoklassniki"></span></a></li>
-  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-  <li><a href="#"><span class="fa fa-phone"></span></a></li>
+  <li><a href="https://www.instagram.com/jiitopticachapter/"><FontAwesomeIcon icon="fa-brands fa-instagram" /></a></li>
+  <li><a href="https://discord.com/invite/PSYTkga89T"><FontAwesomeIcon icon="fa-brands fa-discord" /></a></li>
+  <li><a href="https://www.facebook.com/jiitopticachapter/"><FontAwesomeIcon icon="fa-brands fa-facebook" /></a></li>
+  <li><a href="https://www.linkedin.com/company/jiitopticachapter/mycompany/"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a></li>
 </ul>
               </div>
-            
+              <FontAwesomeIcon icon="fa-brands fa-linkedin" />
               
               <div className="contactUsCards">
                   <div className="card contactCard">
