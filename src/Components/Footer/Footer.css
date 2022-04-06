@@ -3,11 +3,290 @@
     flex-direction: column;
     flex-wrap: wrap;
     /* background-color: #0b1e38; */
-    /* background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png); */
+    background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
     color:transparent; 
-    padding: 15px;
+    /* padding: 15px; */
     justify-content: center;
     align-items: center;
     color: rgba(185,215,255,.5);
     font-family: "Neue Montreal"
+}
+
+.contactFollowWrapper {
+    height: auto;
+    scroll-snap-align: start;
+  }
+  
+  .contactUs {
+    width: 90vw;
+    /* background-color: white; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #220035;
+    text-align: center;
+    padding: 10% 100px;
+  }
+  
+  .contactTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .contactTitle h3 {
+    font-size: 3rem;
+    color: #352961;
+    margin-bottom: 1.8rem;
+    font-weight: 900;
+    max-width: 450px;
+  }
+  
+  .contactBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 4%;
+  }
+  
+  .contactUsCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+  }
+  
+  .opticaLogoDiv {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .opticaLogo {
+    width: 40%;
+    padding:15px
+  }
+  
+  .contactCard {
+    padding: 6% 10px;
+    width: 35%;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: #220035;
+    margin: 0px 20px;
+    word-break: break-all;
+  }
+  
+  .contactCard:hover {
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+  }
+  
+  .contactImage {
+    width: 60%;
+    margin: auto;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 10px;
+  }
+  
+  .name {
+    padding-top: 5px;
+    font-size: 30px;
+  }
+  
+  .card p {
+    font-size: 100%;
+    line-height: 200%;
+    margin: 0px;
+  }
+  
+  #menu {
+    list-style: none;
+    position: relative;
+    width: 310px;
+    height: 320px;
+    margin: auto;
+  }
+  
+  #menu li {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+    background: rgba(37, 133, 155,0.8);
+    border-top: 5px groove rgba(37, 133, 155,1);
+    border-left: 5px groove rgba(37, 133, 155,1);
+    border-bottom: 5px groove rgba(37, 133, 155,1);
+    border-top-right-radius: 100%;
+    transform-origin: bottom left;
+    -webkit-transform: rotate(-45deg);
+    box-shadow: -4px 0px 8px rgba(191, 135, 48, 1);
+    z-index: 1;
+  }
+  
+  #menu li:hover {
+    background: rgba(191, 135, 48, 1);
+    z-index: 9999;
+    box-shadow: -4px 4px 8px rgba(191, 135, 48, 1);
+    cursor: pointer;
+  }
+  
+  #menu li:hover a span {
+    color: rgba(37, 133, 155,0.8);
+  }
+  
+  #menu li a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #menu li a span {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    line-height: 150px;
+    text-align: center;
+    font-size: 44pt;
+    color: rgba(191, 135, 48, 1);
+  }
+  
+  #menu li:nth-child(1) {
+    z-index: 4;
+    transform: rotate(-45deg);
+  }
+  
+  #menu li:nth-child(1) a span {
+    transform: rotate(45deg);
+  }
+  
+  #menu li:nth-child(2) {
+    z-index: 3;
+    -webkit-animation: firstAnim 3s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  #menu li:nth-child(3) {
+    z-index: 2;
+    -webkit-animation: SecondAnim 2s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  #menu li:nth-child(3) a span {
+    transform: rotate(-135deg);
+  }
+  
+  #menu li:nth-child(4) {
+    z-index: 1;
+    animation: ThirdAnim 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  #menu li:nth-child(4) a span {
+    transform: rotate(135deg);
+  }
+  
+  @keyframes firstAnim {
+    from {
+      transform: rotate(-45deg);
+    }
+    to {
+      transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes SecondAnim {
+    from {
+      transform: rotate(-45deg);
+    }
+    to {
+      transform: rotate(135deg);
+    }
+  }
+  
+  @keyframes ThirdAnim {
+    from {
+      transform: rotate(-45deg);
+    }
+    to {
+      transform: rotate(225deg);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .card {
+      width: 80vw;
+      padding: 20px 10px;
+      text-align: center;
+      margin: 20px auto;
+      z-index: 1;
+  }
+  #menu li{
+      width:99px;
+      height:99px;
+  }
+  
+  .contactFollowWrapper {
+      height: auto;
+  }
+  
+  .contactUs {
+      padding: 0px;
+      text-align: left;
+  }
+  
+  .contactTitle {
+      padding: 20px 6%;
+      align-self: flex-start;
+  }
+  
+  .contactTitle h3 {
+      font-size: 1.6rem;
+  }
+  
+  .contactBox {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+  }
+  
+  .opticaLogoDiv {
+      width: 100%;
+      margin-bottom: 40px;
+  }
+  
+  .opticaLogo {
+      width: 60vw;
+  }
+  
+  .contactUsCards {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+  }
+  
+  .contactCard {
+      width: 80%;
+      padding: 20vw 10px;
+      text-align: center;
+      margin: 20px auto;
+      z-index: 1;
+  }
 }

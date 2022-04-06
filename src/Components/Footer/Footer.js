@@ -7,17 +7,52 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <footer className="footer-section">
-        <div className="footer__top">
-
-
+      <div className="contactFollowWrapper">
+     <div className="contactUs" id="contactus">
+     <header className="page-header">
+        <div className="center">
+          <div className="page-title">
+            
+            <h2 in-view="fade-right" className="in-view">
+          Contact
+            </h2>
+          </div>
         </div>
-        <div className="footer__bottom">
-          <h3 className="grid-subtitle">This website has been developed with ❤️ by members of Optica JIIT</h3>
-        </div>
-    </footer>
+      </header>
+          <div className="contactBox">
+              <div className="opticaLogoDiv">
+                  <img className="opticaLogo" alt="logo" src="logo-white.png"/>
+                  <ul id="menu">
+  <li><a href="#"><span class="fa fa-at"></span></a></li>
+  <li><a href="#"><span class="fa fa-odnoklassniki"></span></a></li>
+  <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+  <li><a href="#"><span class="fa fa-phone"></span></a></li>
+</ul>
+              </div>
+            
+              
+              <div className="contactUsCards">
+                  <div className="card contactCard">
+                      <img className="contactImage"  alt="president"src="ayush.jfif"/>
+                      <h2 className="name">Ayush Singhal</h2>
+                      <p>xxxxxxxxx</p>
+                      <p >abc@gmail.com</p>
+                  </div>
+                  <div className="card contactCard">
+                    <img className="contactImage" alt="vice president" src="Anshika.jpeg"/>
+                    <h2 className="name" >Anshika</h2>
+                    <p>xxxxxxx</p>
+                    <p >abc@gmail.com</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="contactus">
+
+      </div>
+      </div>
     </div>
   );
 }
 export default Footer;
- {/* <h4 classNameNameName="lastTxt"></h4> */}
+

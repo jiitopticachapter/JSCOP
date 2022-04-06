@@ -44,14 +44,14 @@ function Navbar() {
              Timeline
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
               href="/#faq"
             >
              Faqs
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
@@ -81,7 +81,7 @@ function Navbar() {
           <li>
             <a
               className="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="footer"
+              href="/#contactus"
             >
              Contact
             </a>
