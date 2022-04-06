@@ -77,9 +77,9 @@ button.mv2 {
     /* font-family: system-ui; */
     letter-spacing: 3px;
     word-spacing: 5px;
-    animation: blink 2s linear infinite;
+    /* animation: blink 2s linear infinite; */
      position: absolute;
-    /* margin-bottom: 40%; */
+    margin-bottom: 20%;
     background-color: transparent;
 }
 .landing__Heading{
@@ -109,9 +109,9 @@ button.mv2 {
 }
 
 .m {
-    width: 150px;
+    width: 150px !important;
     top: 35px;
-    /* position: absolute; */
+    position: absolute;
     margin-left: 50%;
     right: 50px;
     animation: float 6s ease-in-out infinite;
@@ -119,8 +119,8 @@ button.mv2 {
 
 @media(min-width:800px){
     .m{
-        width: 250px;
-        top: 50px;
+        width: 21%;
+        top: 17%;
 
     }
 }
@@ -191,7 +191,7 @@ button.mv2 {
 }
 @media (min-width: 700px) {
     .p-3{
-    margin-top: 8%;
+    margin-top: 89%;
     margin-left: -120%;
         
     }
@@ -235,34 +235,36 @@ button.mv2 {
 @media (max-width: 576px) {
     .m{
         margin-top:-201px;
-        width:199px;
-        top:0;
+        width:154px;
+        top:312px;
     }
     .p-1{
         margin-top:50px;
     }
     .p-3{
-        margin-top:86%;
+        margin-top:110%;
     }
     #home{
-        height:145vh;
+        height:110vh;
     }
     #main{
         margin-top:176px;
     }
     .jscop{
-        margin-bottom: 0%;
+        margin-bottom:26%;
+        max-height:50vh
     }
 
 }
 
-@media (max-width: 376px) {
+
+@media (max-width: 399px) {
     
     #home{
         height:165vh;
     }
     .jscop{
-        margin-bottom: 55%;
+        margin-bottom: 0%;
     }
    
 

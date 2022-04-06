@@ -63,7 +63,7 @@
     width: 50%;
   }
   
-  .ieeeLogoDiv {
+  .opticaLogoDiv {
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -71,7 +71,7 @@
     align-items: center;
   }
   
-  .ieeeLogo {
+  .opticaLogo {
     width: 40%;
     padding:15px
   }
@@ -266,24 +266,24 @@
       align-content: center;
   }
   
-  .ieeeLogoDiv {
-      width: 100vw;
+  .opticaLogoDiv {
+      width: 100%;
       margin-bottom: 40px;
   }
   
-  .ieeeLogo {
+  .opticaLogo {
       width: 60vw;
   }
   
   .contactUsCards {
-      width: 100vw;
+      width: 100%;
       flex-direction: column;
       justify-content: center;
       align-content: center;
   }
   
   .contactCard {
-      width: 80vw;
+      width: 80%;
       padding: 20vw 10px;
       text-align: center;
       margin: 20px auto;

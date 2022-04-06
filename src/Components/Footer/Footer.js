@@ -20,8 +20,8 @@ function Footer() {
         </div>
       </header>
           <div className="contactBox">
-              <div className="ieeeLogoDiv">
-                  <img className="ieeeLogo" alt="logo" src="logo-white.png"/>
+              <div className="opticaLogoDiv">
+                  <img className="opticaLogo" alt="logo" src="logo-white.png"/>
                   <ul id="menu">
   <li><a href="#"><span class="fa fa-at"></span></a></li>
   <li><a href="#"><span class="fa fa-odnoklassniki"></span></a></li>
