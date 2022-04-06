@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Righteous&display=swap");
+
 #home {
     margin: 0;
     padding: 0;
@@ -17,13 +19,14 @@
     overflow-x: hidden;
 }
 
-button.mv {
-    /* margin-top: 30px; */
+button.mv1 {
+    position: absolute;
     background: none;
     color: #35e5fd;
     font-size: 18px;
     border: 2px solid #35e5fd;
-    /* margin-top: 100px; */
+    margin-top: -160px; 
+    margin-left: -160px;
     border-radius: 40px;
     height: 50px;
     width: 150px;
@@ -32,7 +35,25 @@ button.mv {
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
     cursor: pointer;
-}
+} 
+
+button.mv2 {
+   position: absolute;
+   background: none;
+   color: #35e5fd;
+   font-size: 18px;
+   border: 2px solid #35e5fd;
+   margin-top: -340px; 
+   margin-left: 20px;
+   border-radius: 40px;
+   height: 50px;
+   width: 150px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   -ms-border-radius: 40px;
+   -o-border-radius: 40px;
+   cursor: pointer;
+} 
 .p-1 {
     width: 150px;
     /* margin-top: 50px; */
@@ -50,15 +71,28 @@ button.mv {
 
 .jscop{
     text-align: center;
-    font-size: 70px;
+    font-size: 90px;
     text-transform: uppercase;
-    color: #fcfcfc;
-    font-family: system-ui;
+     color: #fcfcfc;
+    /* font-family: system-ui; */
     letter-spacing: 3px;
     word-spacing: 5px;
     animation: blink 2s linear infinite;
-    position: absolute;
-    margin-bottom: 40%;
+     position: absolute;
+    /* margin-bottom: 40%; */
+    background-color: transparent;
+}
+.landing__Heading{
+    /* height:15em; */
+    font-family: "Righteous", cursive;
+    background: url("https://media.giphy.com/media/FE0WTM8BG754I/giphy.gif") center center no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10rem;
+    letter-spacing: 10px;
+    background-size: cover;
+    margin: 0px;
+    color: transparent;
 }
 
 
@@ -161,6 +195,7 @@ button.mv {
     margin-left: -120%;
         
     }
+    
 
 }
 
@@ -171,7 +206,11 @@ button.mv {
         height:75vh;
     }
     .jscop{
-        margin-bottom: 65%;
+        /* margin-bottom: 65%; */
+
+    }
+    .landing__Heading{
+        font-size: 7rem;
     }
    
 
@@ -183,7 +222,11 @@ button.mv {
 
     }
     .jscop{
-        margin-bottom: 65%;
+        /* margin-bottom: 65%; */
+    }
+    .landing__Heading{
+        font-size: 6rem;
+        line-height: 90px;
     }
    
 
@@ -202,7 +245,7 @@ button.mv {
         margin-top:86%;
     }
     #home{
-        height:120vh;
+        height:145vh;
     }
     #main{
         margin-top:176px;

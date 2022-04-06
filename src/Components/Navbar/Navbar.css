@@ -279,7 +279,7 @@ border: 0;
 }
 
 .primary-navigation {
-  --gap: clamp(1.5rem, 5vw, 3.5rem);
+  --gap: clamp(1.5rem, 3vw, 3rem);
   --underline-gap: 2rem;
   list-style: none;
   padding: 0;
@@ -301,7 +301,7 @@ border: 0;
   display: none;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 40rem) {
   .primary-navigation {
       --underline-gap: .5rem;
       position: fixed;
@@ -348,12 +348,12 @@ border: 0;
   }
   
 }
-
-@media (min-width: 35em) {
+/* 
+@media (min-width: 768px) {
   .primary-navigation {
-      padding-inline: clamp(3rem, 7vw, 7rem);
+      padding-inline: clamp(1.5rem, 3vw, 4rem);
   }
-}
+} */
 
 @media (min-width: 35em) and (max-width: 44.999em) {
   .primary-navigation a > span {

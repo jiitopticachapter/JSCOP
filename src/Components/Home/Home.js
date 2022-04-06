@@ -24,7 +24,14 @@ function Home() {
 
 <img src={strage} alt="logo" className="m" />
 
-<h1 className="jscop">JSCOP<br/> <button className="mv">Register Now</button></h1>
+<h1 className="jscop">
+       
+            <h2 in-view="fade-right" className="landing__Heading">
+        JSCOP 4.O
+            </h2>
+      <br/> <button className="mv1">Register Now</button
+      ><br/>
+       <button className="mv2">Register Now</button></h1>
 
 
 {/* <div id="object2"></div> */}
