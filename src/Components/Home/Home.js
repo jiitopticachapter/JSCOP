@@ -7,7 +7,7 @@ import Timeline from "../Timeline/Timeline";
 import SponsorsMain from "../Sponsors/SponsorsMain";
 import Team from "../Team/Team";
 import Footer from "../Footer/Footer";
-import strage from "./images/strage.png";
+// import astro from "astro.png";
 import earth from "./images/earth.png";
 import planet from "./images/p-3.png";
 import Faq from "../Faq/Faq";
@@ -21,7 +21,7 @@ function Home() {
         <section id="main" className="grid-container grid-container--home">
           <img src={earth} alt="logo" className="p-1" />
 
-          <img src={strage} alt="logo" className="m" />
+          <img src="asto.png" alt="logo" className="m" />
 
           <div className="jscop">
             <h2 in-view="fade-right" className="landing__Heading">
