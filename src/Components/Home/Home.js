@@ -11,6 +11,7 @@ import Footer from "../Footer/Footer";
 import earth from "./images/earth.png";
 import planet from "./images/p-3.png";
 import Faq from "../Faq/Faq";
+import Events from "../Events/Events";
 
 function Home() {
   return (
@@ -27,9 +28,9 @@ function Home() {
             <h2 in-view="fade-right" className="landing__Heading">
               JSCOP 4.O
             </h2>
-            <br /> <button className="mv1">Register Now</button>
+            <h4 className="dates">7-8 May 2022</h4>
             <br />
-            <button className="mv2">Register Now</button>
+            <button id="pulse" className="mv2">Register Now</button>
           </div>
 
           {/* <div id="object2"></div> */}
@@ -43,11 +44,12 @@ function Home() {
       {/* <About /> */}
 
       <Speakers />
+      <Events/>
       <Timeline />
 
+      <Team />
       <Faq />
       <SponsorsMain />
-      <Team />
       <Footer />
     </>
   );

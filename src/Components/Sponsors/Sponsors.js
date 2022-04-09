@@ -8,9 +8,6 @@ function Sponsors() {
       <header className="page-header">
         <div className="center">
           <div className="page-title">
-            <span className="suptitle in-view" in-view="fade-right">
-              PrOud Optica
-            </span>
             <h2 in-view="fade-right" className="in-view">
               Sponsors
             </h2>

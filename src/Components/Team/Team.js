@@ -15,64 +15,94 @@ function Team() {
         </header>
 
         <div className="grid-content">
-          {/* <div className="center"> */}
-          <div className="grid1">
-            <div className="grid-list u-clearfix">
-              <div className="grid-item">
-                <div in-view="fade-up" className="in-view">
-                  <figure className="grid-picture wave-container">
-                    <img src="ayush.jfif" alt="Gaetan Libertiaux" />
-                  </figure>
-                  <h2 className="grid-title">
-                    Ayush
-                    <br /> Singhal
-                  </h2>
-                  <p className="grid-subtitle">President of JIIT OPTICA</p>
-                </div>
-              </div>
-              <div className="grid-item">
-                <div in-view="fade-up" className="in-view">
-                  <figure className="grid-picture wave-container">
-                    <img src="Anshika.jpeg" alt="Gaetan Libertiaux" />
-                  </figure>
-                  <h2 className="grid-title">
-                   Anshika
-                    <br /> Jain
-                  </h2>
-                  <p className="grid-subtitle">Vice president Of Optica Jiit</p>
-                </div>
-              </div>
-            
-              <div className="grid2">
-              <div className="grid-item">
-                <div in-view="fade-up" className="in-view">
-                  <figure className="grid-picture wave-container">
-                    <img src="Sparsh.jpg" alt="Gaetan Libertiaux" />
-                  </figure>
-                  <h2 className="grid-title">
-                    Sparsh
-                    <br /> Gupta
-                  </h2>
-                  <p className="grid-subtitle">Treasurer</p>
-                </div>
-              </div>
-              <div className="grid-item">
-                <div in-view="fade-up" className="in-view">
-                  <figure className="grid-picture wave-container">
-                    <img src="Ishan.jpg" alt="Gaetan Libertiaux" />
-                  </figure>
-                  <h2 className="grid-title">
-                   Ishan
-                    <br /> Saxena
-                  </h2>
-                  <p className="grid-subtitle">SECRATARY</p>
-                </div>
-              </div>
-            </div>
+        <div className="page-wrapper">
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/any" alt="profile pic"/>
+      <h3>Leora D. Harrison</h3>
+      <h4>leora@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/animal" alt="profile pic"/>
+      <h3>Eric C. Holman</h3>
+      <h4>eric@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/animal" alt="profile pic"/>
+      <h3>Eric C. Holman</h3>
+      <h4>eric@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/animal" alt="profile pic"/>
+      <h3>Eric C. Holman</h3>
+      <h4>eric@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/animal" alt="profile pic"/>
+      <h3>Eric C. Holman</h3>
+      <h4>eric@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/animal" alt="profile pic"/>
+      <h3>Eric C. Holman</h3>
+      <h4>eric@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/arch" alt="profile pic"/>
+      <h3>Christine E. Jones</h3>
+      <h4>christine@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/nature" alt="profile pic"/>
+      <h3>James E. Sheldon</h3>
+      <h4>james@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/people" alt="profile pic"/>
+      <h3>Allan L. Mutch</h3>
+      <h4>allanLMutch@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/any" alt="profile pic"/>
+      <h3>Kristopher N. Hastings</h3>
+      <h4>kristopher@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/tech" alt="profile pic"/>
+      <h3>Robert S. Beers</h3>
+      <h4>robert@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/any" alt="profile pic"/>
+      <h3>Brian V. England</h3>
+      <h4>brian@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/tech" alt="profile pic"/>
+      <h3>Chung M. Starnes</h3>
+      <h4>chung@ac.io</h4>
+    
+    </div>
+    <div className="profile-box">
+      <img src="https://placeimg.com/200/200/any" alt="profile pic"/>
+      <h3>Mike M. Oconnell</h3>
+      <h4>mike@ac.io</h4>
+    </div>
+  </div>
+          
           </div>
-          </div>
-          </div>
-        {/* </div> */}
+          
       </section>
     </div>
   );
