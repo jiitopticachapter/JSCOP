@@ -22,6 +22,7 @@ ReactDOM.render(
 <div class="firefly"></div>
 <div class="firefly"></div>
 <div class="firefly"></div>
+<div class="firefly"></div>
     <App/>
   </React.StrictMode>,
   document.getElementById('root')

@@ -4,6 +4,14 @@ import './SponsorsMain.css'
 function SponsorsMain() {
   return (
     <div className="SponsorsMain">
+      <header className="section-header">
+          <div className="center">
+            <h2 className="section-title">
+             Our Collaborations<br />
+             
+            </h2>
+          </div>
+        </header>
     <div class="scrollbox scrollbox--primary">
   <div class="scrollbox__item"><img src="adidas.png" alt="" /></div>
   <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>

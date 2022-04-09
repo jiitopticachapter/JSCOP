@@ -96,7 +96,7 @@ section[type=whats-new] .section-title {
 .section-title {
     font-family: California,Times,Georgia,serif;
     font-weight: 500;
-    font-size: 3.75rem;
+    font-size: 3rem;
     line-height: 1;
     color: #fff;
     margin-bottom: 60px;
@@ -210,3 +210,7 @@ section[type=portals] .post-content {
     width: 400px;
     margin-right: 70px;
 }}
+
+.speakers__left img {
+    border-radius:15px;
+}
