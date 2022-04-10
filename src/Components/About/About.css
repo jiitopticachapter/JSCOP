@@ -1,4 +1,4 @@
-
+/* 
 img.dots {
     height: 50vh;
     width: 20vw;
@@ -28,7 +28,7 @@ img.dots {
 
 .about__content {
     /* margin-top: 1vh;
-    align-items: center; */
+    align-items: center; 
     margin-left: 22%;
     width: 80vw;
     position: relative;
@@ -188,4 +188,47 @@ p {
     height: 30vw;
     position: absolute;
     width: 30vw;
+} */
+
+
+
+.About {
+    background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
+    color:transparent; 
+    padding-top:50px;
 }
+
+.u-clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.section[type=whats-new] .section-title {
+    font-family: California,Times,Georgia,serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.05;
+    text-shadow: 0 0 42px #2f9d9c;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    display: inline-block;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    -webkit-background-clip: text;
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: skewY(-11.5deg);
+    transform: skewY(-11.5deg);padding-top:50px;
+}
+
+.backgroundcliptext  section[type=whats-new] .section-subhead {
+    display: inline-block;
+    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (min-width: 46.25em)
+{ section[type=whats-new] .section-title span {
+    margin-left: 130px;
+    font-size: 6.0625rem;
+}}

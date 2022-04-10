@@ -64,27 +64,48 @@ const data = [
   {
     question: 'What is JSCOP?',
     Answer:
-          'A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.'
+<<<<<<< HEAD
+          'It is the annual flagship event of JIIT OPTICA which includes a plethora of events ranging from programming competitions to fun ideathons, trivia quizzes, webinars and a lot more. It also includes mentoring sessions that gives students a wide platform to interact, connect and innovate.'
+=======
+          'It is the annual flagship event of JIIT OPTICA which includes a plethora of events ranging from programming  competitions to fun ideathons, ,trivia quizzes,webinars  and a lot more.It also includes mentoring sessions that gives students a wide platform to interact,connect and innovate.'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
   },
   {
-    question: 'How to register?',
+    question: 'How to Register?',
     Answer:
-          'A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.'
+<<<<<<< HEAD
+          'The registration can be done on the official JSCOP website'
+=======
+          'The registration can be done on the official jscop website'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
   },
   {
-    question: 'What is the eligibility criteria?',
+    question: 'What is the Eligibility Criteria?',
     Answer:
-          'A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.'
+<<<<<<< HEAD
+          'Anyone can register. We welcome everyone on the ride to multiverse packed with fun quizzes, cp events, ideathons and webinars.'
   },
   {
-    question: 'What are the event dates?',
+    question: 'Will the Event Be Virtual, Offline or Hybrid Mode?',
     Answer:
-          'A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.'
+          'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events in the offline mode at our college .'
+=======
+          'Anyone can register .We welcome everyone on the ride to multiverse packed with fun quizzes,cp events,ideathons and webinars.'
   },
   {
-    question: 'what is the event venue?',
+    question: 'Will the event be VIRTUAL,OFFLINE or HYBRID mode?',
     Answer:
-          'A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.'
+          'It will be in hybrid mode. Some of the events will be conducted in  virtual mode and some events  in the offline mode at our college .'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
+  },
+  {
+    question: 'What is the Event Venue?',
+    Answer:
+<<<<<<< HEAD
+          'The offline events of JSCOP 4.0 will be conducted at our college Jaypee Institute of Information Technology.'
+=======
+          'The offline events of JSCOP 4.0 will be conducted  at our college Jaypee Institute  of Information Technology.'
+>>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
   },
 
 

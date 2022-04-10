@@ -1,1 +1,1 @@
-# JSCOP by NG
+# JSCOP Website

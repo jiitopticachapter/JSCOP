@@ -44,12 +44,12 @@ function Home() {
       {/* <About /> */}
 
       <Speakers />
-      <Events/>
+      {/* <Events/> */}
       <Timeline />
 
       <Team />
       <Faq />
-      <SponsorsMain />
+      {/* <SponsorsMain /> */}
       <Footer />
     </>
   );

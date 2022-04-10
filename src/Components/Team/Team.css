@@ -1,5 +1,6 @@
 .Team{
     /* background-color: #0b1e38; */
+    /* background-color: #0b1e38; */
     padding-top: 100px;
     background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
     color:transparent; 
@@ -11,6 +12,7 @@
   font-family: 'Lato', sans-serif;
   min-height: 100vh;
   /* background-color: #F5F7FA; */
+  /* background-color: #F5F7FA; */
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -18,6 +20,7 @@
   justify-content: space-evenly;
   padding-left: calc(5% - 16px);
   padding-right: calc(5% - 16px);
+  /* padding: 0 5%; */
   /* padding: 0 5%; */
 }
 
@@ -35,6 +38,7 @@
 }
 
 .Team .profile-box:hover {
+  /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
   /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
   box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
 }
@@ -98,3 +102,5 @@
 .Team i {
   margin-right: 8px;
 }
+
+

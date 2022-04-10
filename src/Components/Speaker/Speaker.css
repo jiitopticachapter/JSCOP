@@ -42,24 +42,11 @@ a {
     z-index: -1;
 }
 
-
 .backgroundcliptext  section[type=whats-new] .section-subhead {
     display: inline-block;
     background-image: linear-gradient(90deg,#45ffe6,#00b69d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.backgroundcliptext  section[type=whats-new] .section-subhead {
-    display: inline-block;
-    background-image: linear-gradient(90deg,#45ffe6,#00b69d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-section[type=whats-new] .section-header {
-    -webkit-transform-origin: left top;
-    transform-origin: left top;
-    -webkit-transform: skewY(-11.5deg);
-    transform: skewY(-11.5deg);padding-top:50px;
 }
 
 section[type=whats-new] .section-header {
@@ -68,6 +55,16 @@ section[type=whats-new] .section-header {
     -webkit-transform: skewY(-11.5deg);
     transform: skewY(-11.5deg);padding-top:50px;
 }
+
+section[type=whats-new] .section-header-comming-soon {
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    display: flex;
+    justify-content: center;
+    /* -webkit-transform: skewY(-11.5deg); */
+    /* transform: skewY(-11.5deg);padding-top:50px; */
+}
+
 section[type=whats-new] .section-title span {
     display: block;
     font-size: 4rem;
@@ -82,14 +79,25 @@ section[type=whats-new] .section-title span {
     line-height: 2;
     letter-spacing: .07em;
 }
+
 section[type=whats-new] .section-title {
     font-family: California,Times,Georgia,serif;
     font-weight: 500;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.05;
     text-shadow: 0 0 42px #2f9d9c;
 }
+
+section[type=whats-new] .section-title-comming-soon {
+    font-family: California,Times,Georgia,serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 5.5rem;
+    line-height: 1.05;
+    /* text-shadow: 0 0 42px #2f9d9c; */
+}
+
 .section-subhead+.section-title {
     margin-top: 15px;
 }
@@ -134,6 +142,14 @@ section[type=whats-new] .section-title {
     width: 376px;
     margin-top: 15px;
     margin-left: 94px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+   
+    background-color: #ccc;
+  
     
 }
 .post-subtitle {

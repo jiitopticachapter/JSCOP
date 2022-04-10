@@ -1,120 +1,167 @@
 
 .Footer{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: #fcfcfc;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fcfcfc;
+    font-family: sans-serif;
 }
 footer{
-  /* position: absolute; */
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #111;
-  height: auto;
-  width: 100%;
-
-  padding-top: 40px;
-  color: #fff;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    
+    padding-top: 40px;
+    color: #fff;
 }
 .footer-content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
 }
+
+.footer-content-left {
+    width: 50%;
+}
+
+.footer-content-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-content-right-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-content-left-socials p{
+    font-size: 1.1rem !important;
+    color: white !important;
+}
+
+.footer-content-right-contacts-p1,
+.footer-content-right-contacts-p2 {
+
+    font-size: 1.2rem !important;
+    padding: 20px;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    margin-left: 38%;
+    margin-bottom: 50px;
+    /* justify-content: space-around; */
+    list-style: none;
+}
+
+.footer-socials li {
+    margin-left: 20px;
+}
+
 .footer-content h3{
-  font-size: 2.1rem;
-  font-weight: 500;
-  text-transform: capitalize;
-  line-height: 3rem;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
 }
+
 .footer-content p{
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
-  color: #cacdd2;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    /* font-size: 14px; */
+    color: #cacdd2;
 }
+
+.footer-content-left-header {
+    font-size: 1rem;
+}
+
 .socials{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
 }
+
 .socials li{
-  margin: 0 10px;
+    margin: 0 10px;
 }
+
 .socials a{
-  text-decoration: none;
-  color: #fff;
-  border: 1.1px solid white;
-  padding: 5px;
-
-  border-radius: 50%;
-
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    
 }
 .socials a i{
-  font-size: 1.1rem;
-  width: 20px;
-
-
-  transition: color .4s ease;
-
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+    
 }
 .socials a:hover i{
-  color: aqua;
+    color: aqua;
 }
 
 .footer-bottom{
-  background: #000;
-  width: 95%;
-  /* padding: 20px; */
-padding-bottom: 40px;
-  text-align: center;
+    background: #000;
+    width: 95%;
+    /* padding: 20px; */
+    padding-bottom: 40px;
+    text-align: center;
 }
 .footer-bottom p{
-/* float: left; */
-  font-size: 14px;
-  word-spacing: 2px;
-  text-transform: capitalize;
+    /* float: left; */
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }
 .footer-bottom p a{
-color:#44bae8;
-font-size: 16px;
-text-decoration: none;
+    color:#44bae8;
+    font-size: 16px;
+    text-decoration: none;
 }
 .footer-bottom span{
-  text-transform: uppercase;
-  opacity: .4;
-  font-weight: 200;
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
-.footer-menu{
-float: right;
-
+/* .footer-menu{
+    float: right;
+    
 }
 .footer-menu ul{
-display: flex;
+    display: flex;
 }
 .footer-menu ul li{
-padding-right: 10px;
-display: block;
+    padding-right: 10px;
+    display: block;
 }
 .footer-menu ul li a{
-color: #cfd2d6;
-text-decoration: none;
+    color: #cfd2d6;
+    text-decoration: none;
 }
 .footer-menu ul li a:hover{
-color: #27bcda;
-}
+    color: #27bcda;
+} */
 
 @media (max-width:500px) {
-.footer-menu ul{
-display: flex;
-margin-top: 10px;
-margin-bottom: 20px;
-}
+    .footer-menu ul{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 }
