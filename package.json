@@ -2,11 +2,7 @@
   "name": "jscop",
   "version": "0.1.0",
   "private": false,
-<<<<<<< HEAD
   "homepage": "https://jiitopticachapter.github.io/",
-=======
-  "homepage": ".",
->>>>>>> 25035c787a6b91fd95a20b18e7a5b8e8608fa461
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
