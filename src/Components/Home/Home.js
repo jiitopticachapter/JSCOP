@@ -1,17 +1,17 @@
 import React from "react";
 import "./Home.css";
-import { Parallax, ParallaxProvider } from "react-scroll-parallax";
-import About from "../About/About";
+// import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+// import About from "../About/About";
 import Speakers from "../Speaker/Speakers";
 import Timeline from "../Timeline/Timeline";
-import SponsorsMain from "../Sponsors/SponsorsMain";
+// import SponsorsMain from "../Sponsors/SponsorsMain";
 import Team from "../Team/Team";
 import Footer from "../Footer/Footer";
 // import astro from "astro.png";
 import earth from "./images/earth.png";
 import planet from "./images/p-3.png";
 import Faq from "../Faq/Faq";
-import Events from "../Events/Events";
+// import Events from "../Events/Events";
 
 function Home() {
   return (

@@ -44,18 +44,12 @@ function Footer() {
                     </div>
 
                 </div>
-                {/* <ul className="footer-content-right-quick-links">
-                    <li><a href="#"> About Us</a></li>
-                    <li><a href="#"> FAQs</a></li>
-                    <li><a href="#"> Timeline</a></li>
-                    <li><a href="#"> Team</a></li>
-                </ul> */}
 
             </div>
         </div>
 
         <div className="footer-bottom">
-            <p>copyright &copy; <a href="#">JIIT OPTICA CHAPTER</a>  </p>
+            <p>copyright &copy; <a href="/home">JIIT OPTICA CHAPTER</a>  </p>
         </div>
 
     </footer>

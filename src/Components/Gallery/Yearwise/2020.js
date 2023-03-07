@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Yearwise.css";
-import Image from "../Image/Image";
+// import Image from "../Image/Image";
 
 function Yearwise(props) {
 	return (

@@ -12,82 +12,82 @@ function SponsorsMain() {
             </h2>
           </div>
         </header>
-    <div class="scrollbox scrollbox--primary">
-  <div class="scrollbox__item"><img src="adidas.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="google.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="nike.png" alt="" /></div>
+    <div className="scrollbox scrollbox--primary">
+  <div className="scrollbox__item"><img src="adidas.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="google.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="nike.png" alt="" /></div>
 </div>
 
-<div class="scrollbox scrollbox--secondary scrollbox--reverse">
-<div class="scrollbox__item"><img src="adidas.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
-  <div class="scrollbox__item"><img src="google.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="instagram.png" alt="" /></div>
-  <div class="scrollbox__item"><img src="nike.png" alt="" /></div>
+<div className="scrollbox scrollbox--secondary scrollbox--reverse">
+<div className="scrollbox__item"><img src="adidas.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="facebook.png" alt="logo"/></div>
+  <div className="scrollbox__item"><img src="google.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="instagram.png" alt="" /></div>
+  <div className="scrollbox__item"><img src="nike.png" alt="" /></div>
 </div>
 
     </div>
