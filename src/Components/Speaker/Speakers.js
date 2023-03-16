@@ -22,14 +22,14 @@ function Speakers() {
                 <header className="section-header-comming-soon">
                     <div className="center">
                         <h2 className="section-title-comming-soon">
-                            Comming Soon<br />
+//                             Comming Soon<br />
                         </h2>
                     </div>
                 </header>
 
                             {/*              COMING SOON            */}
                 
-                {/* <section className="post_content">
+                {<section className="post_content">
                     <div className="center">
                         <div className="post">
                             <div className="speakers__left">
@@ -58,7 +58,7 @@ function Speakers() {
                                 <p className="post-subtitle"> </p>
                             </div>
                         </div>
-                    </div> */}
+                    </div>}
                 </section>
             </section>
         </div>
