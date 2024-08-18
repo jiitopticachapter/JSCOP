@@ -58,8 +58,9 @@ function Speakers() {
                                 <p className="post-subtitle"> </p>
                             </div>
                         </div>
-                    </div>}
-                </section>
+                    </div>
+                </section>}
+            </section>
             </section>
         </div>
         );
